@@ -2006,6 +2006,10 @@ code {
   color: var(--co-main__query-title);
 }
 
+.rm-query div[style="color: red;"] {
+  color: var(--co-main__query-error) !important;
+}
+
 .rm-block__self .rm-block__ref-count.rm-active {
   background-color: var(--bc-main__ref-count--active);
   color: var(--co-main__ref-count--active);

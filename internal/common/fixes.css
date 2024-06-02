@@ -487,7 +487,6 @@ code {
 
 .rm-query div[style="color: red;"] {
   margin: 0 8px;
-  color: var(--cl-red-800) !important;
 }
 
 /* Remove unnecessary margin around references */
