@@ -1,0 +1,1041 @@
+/* Set the base font for the app */
+.roam-body .roam-app {
+  font-family: inherit;
+}
+
+/* Reduce padding on mobile device */
+@media only screen and (max-width: 500px) {
+  .roam-body .roam-app .roam-main .roam-article {
+    padding: 16px 21px 120px;
+  }
+}
+.rm-autocomplete__results .rm-code-block {
+  margin-right: 0;
+}
+
+/* Use a bp3-card layout */
+.rm-search-path {
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.rm-search-path .rm-h {
+  margin-bottom: 10px;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.rm-search-path .bp3-input {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 0 0 10px;
+  resize: none;
+}
+
+.rm-search-path .rm-zoom-path {
+  font-size: unset;
+}
+
+.rm-search-path .rm-search-path-results .rm-new-item {
+  font-size: unset;
+}
+
+/* Remove the unnecessary calc and margin */
+/* The min height of a block is based on the base font size and the padding */
+.roam-block {
+  min-height: 31px;
+  line-height: 23px;
+  margin-top: 0;
+}
+
+/* Remove top margin from block input */
+.rm-block-input {
+  margin-top: 0;
+  overflow-wrap: break-word;
+  line-height: 23px;
+}
+
+.rm-bullet--numbered {
+  align-self: center;
+}
+
+.rm-E:hover .rm-block__controls {
+  display: flex;
+}
+
+.rm-g.rm-not-focused.rm-block--open.rm-not-focused > .rm-block__self {
+  left: 10px;
+}
+
+/* Make sure that the font size of the icons is the same as the font size of the text */
+.bp3-control .bp3-control-indicator {
+  font-size: 1rem;
+}
+
+.bp3-input-group.bp3-small > .bp3-input-left-container > .bp3-icon,
+.bp3-input-group.bp3-small > .bp3-icon,
+.bp3-input-group.bp3-small .bp3-input-action > .bp3-spinner {
+  margin: 5px;
+}
+
+.bp3-input-group.bp3-small .bp3-button {
+  min-height: 22px;
+}
+
+.bp3-button[class*=bp3-icon-]::before,
+.bp3-icon {
+  font-size: 1rem !important;
+}
+
+.bp3-icon svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.bp3-running-text table tbody tr:first-child th,
+table.bp3-html-table tbody tr:first-child th,
+.bp3-running-text table tbody tr:first-child td,
+table.bp3-html-table tbody tr:first-child td,
+.bp3-running-text table tfoot tr:first-child th,
+table.bp3-html-table tfoot tr:first-child th,
+.bp3-running-text table tfoot tr:first-child td,
+table.bp3-html-table tfoot tr:first-child td {
+  color: inherit !important;
+}
+
+.bp3-input-group > .bp3-input-left-container > .bp3-icon,
+.bp3-input-group > .bp3-icon,
+.bp3-input-group .bp3-input-action > .bp3-spinner {
+  margin: 8px;
+}
+
+/* Remove the background color of the command palette */
+.rm-command-palette__scroll-container .rm-command-palette__menu {
+  background-color: transparent;
+}
+
+.rm-command-palette__input-group .bp3-input:focus {
+  box-shadow: none;
+}
+
+.rm-command-palette__input-group .bp3-input:not(:first-child) {
+  height: 40px;
+}
+
+.rm-command-palette__input-group .search-icon {
+  margin: 14px;
+}
+
+/* Remove unnecessary margins from controls and resize them to match the line height */
+.controls, .rm-block__controls {
+  align-items: center;
+  min-height: 31px;
+  padding: 0;
+}
+
+/* Change display mode for spans to flex to vertically align them */
+.controls span, .rm-block__controls span {
+  display: flex;
+}
+
+/* Remove unnecessary margins from bullets */
+.rm-bullet,
+.rm-bullet.rm-bullet--closed {
+  margin: 0;
+}
+
+/* Fix multibar position and remove unnecessary calc */
+.rm-multibar {
+  left: -12px;
+  width: 8px;
+}
+
+.rm-multibar:hover {
+  width: 9px;
+}
+
+.rm-caret.rm-caret-showing {
+  opacity: 1;
+}
+
+/* Fix the date picker day size */
+.rm-jump-date-picker .bp3-datepicker-day-wrapper {
+  width: 35px;
+  height: unset;
+}
+
+.bp3-datepicker .DayPicker-Day {
+  line-height: unset;
+}
+
+.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected,
+.rm-jump-date-picker .DayPicker-Day.DayPicker-Day--selected:hover,
+.rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today,
+.rm-jump-date-picker .DayPicker-Day--selected.DayPicker-Day--today:hover,
+.bp3-datepicker .bp3-datepicker-day-wrapper:hover,
+.bp3-datepicker .DayPicker-Day:hover,
+.bp3-datepicker .bp3-datepicker-day-wrapper {
+  border-radius: 3px;
+}
+
+/* Remove font size for embedded page title */
+.rm-embed--page .rm-page__title {
+  font-size: unset;
+  margin-bottom: 0;
+  line-height: 1.5em;
+}
+
+/* Remove top padding for page embed */
+.rm-embed--page {
+  padding-top: 0;
+}
+
+/* Remove left padding for page embed */
+.rm-embed--page,
+.rm-embed-container--block {
+  padding-left: 16px;
+}
+
+.rm-embed--page > .rm-embed-margin-action {
+  margin-left: 5px;
+}
+
+.rm-embed--page > .rm-embed-margin-action.rm-open {
+  margin-left: -5px;
+}
+
+.rm-embed--page:hover > .rm-embed-margin-action {
+  width: 3px;
+  left: -12px;
+  opacity: 0.5;
+}
+
+.rm-embed--page > .rm-embed-margin-action:hover {
+  width: 9px;
+  left: -15px;
+  opacity: 1;
+}
+
+.rm-embed--page .rm-page__title {
+  margin-left: -4px;
+}
+
+.bp3-menu button.emoji-mart-search-icon {
+  height: unset;
+  width: unset;
+  margin-top: -4px;
+}
+
+.emoji-mart-category-label {
+  top: -1px;
+}
+
+.bp3-menu button.emoji-mart-search-icon svg {
+  opacity: 1 !important;
+}
+
+.emoji-mart-search {
+  z-index: 1000;
+}
+
+.emoji-mart-scroll {
+  margin-top: 4px;
+}
+
+.rm-extensions-marketplace-dialog {
+  overflow: auto;
+}
+
+.rm-extensions-marketplace .rm-extensions-marketplace-details {
+  height: unset;
+}
+
+.rm-extensions-marketplace .rm-extensions-marketplace-details {
+  margin: 30px 10px 30px 5px;
+  padding: 0;
+}
+
+.rm-extensions-marketplace .rm-extension-full {
+  padding: 0 20px;
+}
+
+.rm-extensions-marketplace .rm-extensions-marketplace-search {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.rm-extensions-marketplace .rm-extension-small {
+  margin-right: 10px;
+}
+
+/* Hide the line */
+.rm-choose-filter .rm-line {
+  display: none;
+}
+
+/* Setting menu in graph dropdown */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon.settings {
+  font-size: 1rem;
+  margin-top: 3px;
+}
+
+.rm-graph-dropdown a {
+  display: flex;
+}
+
+.roam-sidebar-container .rm-graphs__search {
+  margin: 5px;
+}
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .menu-item {
+  padding-left: 7px;
+  padding-top: 5px;
+  width: 100%;
+}
+
+.roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown .signout {
+  max-width: 200px;
+  text-align: left;
+}
+
+.rm-graphs__search {
+  display: flex;
+}
+
+.rm-help-search__icon-container {
+  position: absolute;
+  z-index: 10;
+  top: 8px;
+}
+
+.rm-help-search__input {
+  padding-left: 40px;
+}
+
+/* reset all custom styling to defaults */
+body,
+html {
+  letter-spacing: 0;
+}
+
+div {
+  font-size: unset;
+  line-height: unset;
+  margin: unset;
+  padding: unset;
+}
+
+textarea {
+  font-family: unset;
+  font-size: unset;
+  line-height: unset;
+  margin: unset;
+  padding: unset;
+}
+
+/* Fix the focus outline setting for Safari */
+*:focus {
+  outline-width: 0 !important;
+  outline-style: solid;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+  line-height: 1.5em;
+}
+
+.roam-sidebar-content .log-button .bp3-icon-list {
+  font-family: "Icons20";
+}
+
+#roam-sidebar-logo:hover {
+  text-decoration: none;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row:hover {
+  background-color: var(--bc-left-sidebar__top-row);
+}
+
+/* Turn starred pages into a similar layout as the log buttons */
+.starred-pages-wrapper {
+  padding: 8px 0 !important;
+}
+
+.starred-pages-wrapper .title {
+  padding: 0px 20px;
+}
+
+/* Hide the old uppercase Shotcuts title and replace it with a normal formatted one */
+.starred-pages-wrapper .title span:not(.bp3-icon-star) {
+  display: none;
+}
+
+/* Replace the uppercase shortcuts text with a normal formatted one */
+.starred-pages-wrapper .title::after {
+  content: "Shortcuts";
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Remove the star icon */
+.starred-pages-wrapper .title .bp3-icon-small,
+.starred-pages-wrapper .title > div {
+  display: none;
+}
+
+/* Adjust the padding for starred pages */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+  padding: 5px 20px;
+}
+
+/* Remove the horizontal line */
+.starred-pages-wrapper > div:first-child {
+  display: none;
+}
+
+/* Adjust the height of the top row */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .top-row {
+  height: 3rem;
+}
+
+/* Adjust the height of the daily notes */
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content div.log-button:nth-child(2) {
+  margin-top: 7px;
+}
+
+/* Move the main block slightly back into the article frame */
+.roam-log-page .rm-block-children[style="margin-left: -27px;"] {
+  margin-left: 0px !important;
+}
+
+/* Remove the unnessecary margin for ghost bullets */
+.controls .simple-bullet-outer, .rm-block__controls .simple-bullet-outer {
+  margin-top: 0;
+}
+
+.rm-article-wrapper .roam-log-container .roam-log-page {
+  border-top: none;
+}
+
+/* Remove negative margin from content area */
+.rm-block__children.rm-level-0 {
+  margin-left: 0;
+}
+
+/* Fix inline code within the normal block height */
+code {
+  display: inline-flex;
+  max-height: 18px;
+  flex-wrap: wrap;
+  align-content: center;
+  font-size: 0.9rem;
+  padding: 2px 5px;
+}
+
+.rm-encrypted-block input.bp3-button {
+  padding: 5px 10px !important;
+}
+
+.rm-encrypted-block {
+  display: block;
+}
+
+.check-container {
+  top: 2.5px;
+  width: 16px;
+  height: 16px;
+}
+
+.check-mark {
+  border-radius: 3px;
+}
+
+.check-container .checkmark:after {
+  left: 4px;
+  top: 0.5px;
+  width: 8px;
+  height: 12px;
+  border-width: 0 3px 3px 0;
+}
+
+/* Remove unnecessary margin from menu icon */
+.bp3-menu-item::before,
+.bp3-menu-item > .bp3-icon {
+  margin-left: 0;
+}
+
+/* Fix the size of the menu icon */
+.bp3-menu-item svg {
+  height: 16px;
+  width: 16px;
+}
+
+.roamjs-smartblock-menu .bp3-menu-item img {
+  margin-bottom: 2px;
+}
+
+/* Remove unnecessary margin around references */
+.rm-reference-main:not(.rm-search-query-content) > div {
+  margin: 0 !important;
+}
+
+.rm-reference-main:not(.rm-search-query-content) {
+  margin: 0;
+  padding-top: 0 !important;
+}
+
+/* Add an addition bottom margin to references and remove the left margin */
+.rm-mentions .rm-ref-page-view {
+  margin-bottom: 4px;
+  margin-left: 0;
+}
+
+/* Remove the unnecessary padding around the caret */
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+  padding: 0;
+}
+
+/* Remove the left margin for the whole reference block */
+.rm-ref-page-view > div:nth-child(2) {
+  margin-left: 0 !important;
+}
+
+/* Move the reference headings to the left and increase the top margin */
+.rm-reference-main > div > div:not(.rm-reference-container) > .flex-h-box {
+  margin: 16px 0 0 -16px;
+}
+
+.rm-reference-main > span {
+  margin-left: 0 !important;
+}
+
+/* Remove unnecessary left margin to align to the bullets of the main block */
+.rm-reference-item {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.rm-mentions .rm-ref-page-view .rm-ref-page-view-title {
+  font-size: unset;
+}
+
+/* Add an margin between the caret and the reference title */
+.rm-mentions .rm-page__title {
+  margin-left: 0;
+}
+
+/* Optimize the search field */
+/* Remove the border */
+.rm-mentions-search__input {
+  box-shadow: none;
+}
+
+/* Set padding and margin so it looks like a normal icon */
+.rm-mentions-search__search-icon {
+  padding: 4px;
+  margin: 3px !important;
+  border-radius: 3px;
+}
+
+/* Add a standard hover effect */
+.rm-mentions-search__search-icon:hover {
+  background: rgba(167, 182, 194, 0.3);
+}
+
+/* Hide caret on un-hovered reference titles */
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+  min-width: 18px;
+  min-height: 16px;
+  opacity: 0;
+}
+
+.rm-mentions .rm-ref-page-view:hover .rm-title-arrow-wrapper .rm-caret {
+  opacity: 1;
+}
+
+/* Adjust the caret position */
+.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper {
+  margin-left: -16px;
+}
+
+/* Remove the left padding */
+.rm-inline-references {
+  padding-left: 0;
+}
+
+/* Fix overlong non-breaking titles */
+.rm-page__title {
+  overflow-wrap: break-word;
+}
+
+/* Remove the forced underline for references on hover */
+.rm-page__title[style*="text-decoration: underline;"] {
+  text-decoration: none !important;
+}
+
+.rm-embed-path .rm-caret-wrapper,
+.rm-inline-references .rm-inline-reference .rm-caret-wrapper {
+  margin-top: 0;
+  margin-left: 0;
+  line-height: 31px;
+}
+
+.rm-zoom-mask .bp3-icon-standard {
+  font-size: 14px;
+}
+
+.rm-inline-references .rm-filter-popup-button {
+  margin-top: 3px;
+}
+
+.rm-reference-item-link-button {
+  margin-top: 3px !important;
+  margin-left: 3px;
+}
+
+.rm-reference-container > .flex-h-box {
+  margin-left: -16px;
+}
+
+.rm-block-children .rm-reference-container > .flex-h-box > .rm-caret {
+  margin-left: -24px;
+}
+
+.rm-block-children .rm-reference-container > .flex-h-box > div:nth-child(2) {
+  flex: 0 1 24px !important;
+}
+
+/* Hide the window header caret by default */
+.window-headers .rm-caret {
+  opacity: 0;
+}
+
+.window-headers:hover .rm-caret {
+  opacity: 1;
+}
+
+/* Re-position the outline area */
+.rm-sidebar-outline div[style="margin-left: -20px;"] {
+  margin-left: -15px !important;
+}
+
+#right-sidebar .rm-sidebar-window {
+  margin-left: 0;
+}
+
+.window-headers .bp3-icon[style="margin-right: 2px;"] {
+  margin-right: 0 !important;
+}
+
+/* Move the comment button to the right */
+#right-sidebar div[style="min-width: 24px;"] {
+  margin-right: -24px;
+  z-index: 10;
+}
+
+#right-sidebar .rm-sidebar-outline .zoom-path-view {
+  margin-top: 8px;
+}
+
+/* Adjust the line height of the page title */
+#right-sidebar .rm-sidebar-outline .rm-title-display,
+#right-sidebar .rm-sidebar-outline .rm-title-editing-display textarea {
+  line-height: 2em;
+}
+
+/* Fixes errors in roam's default css */
+#info table,
+#info th,
+#info td,
+.roam-table th,
+.roam-table td,
+.roam-table tr,
+.import-table th,
+.import-table td,
+.import-table tr,
+.rm-settings .rm-settings-panel table th,
+.rm-settings .rm-settings-panel table td,
+.rm-settings .rm-settings-panel table tr {
+  margin: 0;
+}
+
+.rm-section-item {
+  max-width: max-content;
+}
+
+.rm-block--side {
+  align-items: flex-start;
+}
+
+#right-sidebar {
+  overflow: hidden;
+}
+
+#right-sidebar .rm-resize-handle {
+  left: -4px;
+}
+
+#right-sidebar .rm-reference-main {
+  padding: 0;
+}
+
+.image-1,
+.rm-add-db-form .rm-error-message,
+.rm-modal-dialog.rm-modal-dialog--create-new-api-token .rm-error-message {
+  margin-right: 8px;
+}
+
+.rm-choose-filter .rm-filter-button .bp3-icon-globe {
+  color: #5C7080;
+}
+
+/*
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .title {
+  color: rgba(92,112,128,.7);
+}
+*/
+.rm-article-wrapper.rm-spacing--small {
+  transform: none;
+  transition: all ease-in 100ms;
+}
+
+.rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item {
+  overflow-wrap: normal;
+}
+
+.slider .slider-cell {
+  flex: 1 0 100%;
+}
+
+#db-permissions-modal .sharing-grid textarea {
+  overflow-y: hidden;
+}
+
+.rm-right-sidebar__helper-text {
+  display: flex;
+}
+
+.rm-bullet:active {
+  cursor: grab;
+}
+
+.rm-block-input {
+  overflow-wrap: normal;
+}
+
+#mobile-capture li {
+  list-style-position: outside;
+}
+
+.rm-choose-filter .rm-filter-button {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.rm-settings .rm-settings-panel .rm-radio-group__option--align-right {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.rm-search-query--condensed .rm-query .rm-zoom, .rm-query--condensed .rm-search-query .rm-zoom, .rm-search-query--condensed .rm-search-query .rm-zoom {
+  display: none;
+}
+
+.rm-query--condensed .rm-query .rm-query-title, .rm-search-query--condensed .rm-query .rm-query-title, .rm-query--condensed .rm-search-query .rm-search-query-title, .rm-search-query--condensed .rm-search-query .rm-search-query-title {
+  display: none;
+}
+
+.rm-query--condensed .rm-query, .rm-search-query--condensed .rm-query, .rm-query--condensed .rm-search-query, .rm-search-query--condensed .rm-search-query {
+  background-color: #a8c2ce;
+  border: none;
+  padding: -4px;
+  margin: -6px 0;
+}
+
+.rm-query--condensed .rm-query-content > span, .rm-search-query--condensed .rm-query-content > span, .rm-query--condensed .rm-search-query-content > span, .rm-search-query--condensed .rm-search-query-content > span {
+  float: right;
+  margin-right: -72px;
+}
+
+.rm-query--condensed .rm-query .rm-ref-page-view, .rm-search-query--condensed .rm-query .rm-ref-page-view, .rm-query--condensed .rm-search-query .rm-ref-page-view, .rm-search-query--condensed .rm-search-query .rm-ref-page-view {
+  display: contents;
+  border-left: 2px solid grey;
+}
+
+.rm-query--condensed .rm-query .rm-ref-page-view .rm-title-arrow-wrapper, .rm-search-query--condensed .rm-query .rm-ref-page-view .rm-title-arrow-wrapper, .rm-query--condensed .rm-search-query .rm-ref-page-view .rm-title-arrow-wrapper, .rm-search-query--condensed .rm-search-query .rm-ref-page-view .rm-title-arrow-wrapper {
+  display: none;
+}
+
+.rm-query--condensed .rm-query-content .refs-by-page-view > div > div, .rm-search-query--condensed .rm-query-content .refs-by-page-view > div > div, .rm-query--condensed .rm-search-query-content .refs-by-page-view > div > div, .rm-search-query--condensed .rm-search-query-content .refs-by-page-view > div > div {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+}
+
+/* Re-Style the roam css and roam js dialogs */
+.rm-roam-css__description:first-child, .rm-code-warning__description:first-child {
+  line-height: 20px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.rm-roam-css, .rm-code-warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rm-roam-css button, .rm-code-warning button {
+  min-width: 80px;
+  order: 3;
+}
+
+.rm-roam-css div, .rm-code-warning div {
+  text-align: left;
+  width: 100%;
+}
+
+/* Add a margin for search queries */
+.rm-query .rm-query-content,
+.rm-search-query .rm-query-content,
+.rm-query .rm-search-query-content,
+.rm-search-query .rm-search-query-content {
+  margin: 8px 8px 4px 8px;
+  padding: 0 !important;
+}
+
+.rm-search-query-content > span,
+.rm-search-query-content > div.dont-focus-block {
+  margin-left: 0 !important;
+}
+
+.rm-settings--desktop .rm-settings__tab:not(.rm-settings__panel-wrapper)[aria-selected=true]:before {
+  display: none;
+}
+
+.rm-settings--desktop .rm-settings-tabs .bp3-tab-list {
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.rm-settings--desktop .rm-settings-heading {
+  margin-top: 32px;
+}
+
+.rm-settings .rm-settings__tab.rm-settings__tab:not(.rm-settings__panel-wrapper) {
+  padding: 0 10px;
+}
+
+.rm-settings--desktop .rm-settings-heading {
+  margin-left: 0px;
+}
+
+.rm-settings .rm-settings-panel .rm-user-settings {
+  padding-left: 8px;
+}
+
+.rm-settings .rm-select-wrapper button.bp3-button {
+  min-height: 30px;
+}
+
+.rm-settings .rm-settings-panel table th,
+.rm-settings .rm-settings-panel table td,
+.rm-settings .rm-settings-panel table tr {
+  color: inherit !important;
+}
+
+.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]) {
+  background-color: var(--bc-bp3__button-minimal) !important;
+  background-image: var(--bi-bp3__button-minimal) !important;
+  box-shadow: var(--sd-bp3__button-minimal) !important;
+}
+
+.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):hover {
+  background-color: var(--bc-bp3__button-minimal--hover) !important;
+  box-shadow: var(--sd-bp3__button-minimal--hover) !important;
+  color: var(--co-bp3__button-minimal--hover) !important;
+}
+
+.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):active {
+  background-color: var(--bc-bp3__button-minimal--active) !important;
+  box-shadow: var(--sd-bp3__button-minimal--active) !important;
+  color: var(--co-bp3__button-minimal--active) !important;
+}
+
+.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):disabled {
+  background-color: var(--bc-bp3__button-minimal--disabled) !important;
+  color: var(--co-bp3__button-minimal--disabled) !important;
+}
+
+.rm-extensions-settings .bp3-button:not([class*=bp3-intent-]):not([class*=bp3-minimal]):disabled:active {
+  background-color: var(--bc-bp3__button-minimal--disabled-active) !important;
+}
+
+.rm-settings--desktop .rm-extension-settings-heading {
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.bp3-toast-message {
+  padding: 10px;
+}
+
+.rm-topbar {
+  height: 3rem;
+}
+
+.rm-files-dropzone {
+  height: 3rem;
+}
+
+.rm-block__see {
+  transition-delay: 50ms;
+  transition: all 50ms ease-in-out;
+}
+
+.rm-block__self .rm-block__ref-count {
+  transition: all 50ms ease-in-out;
+}
+
+.rm-multibar {
+  transition: all 50ms ease-in;
+}
+
+#rm-mobile-bar {
+  transition: all 50ms ease-in;
+}
+
+.rm-diagram .rm-diagram-properties-panel__header .bp3-icon-chevron-right {
+  transition: all 50ms ease-in;
+}
+
+.rm-diagram .rm-diagram-properties-panel__section {
+  transition: all 50ms ease-in;
+}
+
+#rm-electron-find {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-children__container {
+  transition: margin-left 50ms ease-in;
+}
+
+.rm-embed-children__inner {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-children__open-bar {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-container:hover > .rm-embed-edit {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-margin-action-edit {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-show-bullet > .rm-embed-margin-action-edit {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-margin-action {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-show-bullets-button-x {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-inner-block-hide {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed-inner-block-hide:hover > .rm-embed-show-bullets-button-x {
+  transition: all 50ms ease-in;
+}
+
+.rm-hide-bullet > .rm-embed-inner-block-hide {
+  transition: all 50ms ease-in;
+}
+
+.rm-hide-bullet > .rm-embed-inner-block-hide:hover > .rm-embed-show-bullets-button-x {
+  transition: all 50ms ease-in;
+}
+
+.rm-embed--page {
+  transition: all 50ms ease-in-out;
+}
+
+.rm-embed--page > .rm-embed-margin-action {
+  transition: all 50ms ease-in-out;
+}
+
+#right-sidebar .rm-sidebar-card .rm-sidebar-card-controls {
+  transition: all 50ms ease-in;
+}
+
+.rm-choose-filter {
+  transition: all 50ms ease-in;
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+  transition: all 50ms ease-in;
+}
+
+.rm-article-wrapper {
+  transition: padding ease-in-out 50ms;
+}
+
+.rm-find-or-create-wrapper {
+  transition: all 50ms ease-in;
+}
+
+.rm-mentions-search {
+  transition: all 50ms ease-in;
+}
+
+.rm-hide.rm-not-focused.rm-block--closed {
+  transition: all 50ms ease-in;
+}
+
+.rm-hide.rm-not-focused.rm-block--closed > .rm-block__self .rm-block__controls .rm-caret, .rm-hide.rm-not-focused.rm-block--closed > .rm-block__self .rm-block__controls .rm-caret-hidden, .rm-hide.rm-not-focused.rm-block--closed > .rm-block__self .rm-block__controls .rm-caret:hover {
+  transition: all 50ms ease-in;
+}
+
+.rm-bullet::after {
+  transition: all 50ms ease-in;
+}
+
+.rm-paren {
+  transition: all 50ms ease-in-out;
+}
+
+.rm-caret {
+  transition: all 100ms ease-in;
+}
+
+/* Remove margin from zoom path */
+.rm-zoom.zoom-path-view {
+  margin: 0;
+}
+
+/* Remove the padding of the first child */
+.rm-zoom .rm-zoom-item:first-child .rm-zoom-item-content {
+  padding-left: 0;
+}
+
+.rm-zoom-path .rm-zoom-item .rm-zoom-item-content {
+  line-height: 23px;
+}
+
+.rm-zoom-path span {
+  display: inline-flex;
+}
+
+.rm-zoom-mask .bp3-icon-standard {
+  margin-top: 2px;
+}
