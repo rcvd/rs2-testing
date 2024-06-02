@@ -158,6 +158,14 @@ table.bp3-html-table tfoot tr:first-child td {
   opacity: 1;
 }
 
+.rm-caret.rm-caret-showing {
+  background-color: var(--bc-main);
+}
+
+#right-sidebar .rm-caret.rm-caret-showing {
+  background-color: var(--bc-right-sidebar);
+}
+
 /* Fix the date picker day size */
 .rm-jump-date-picker .bp3-datepicker-day-wrapper {
   width: 35px;
