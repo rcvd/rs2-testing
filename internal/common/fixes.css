@@ -457,6 +457,10 @@ code {
   border-width: 0 3px 3px 0;
 }
 
+.roam-table td {
+  overflow: auto;
+}
+
 /* Remove unnecessary margin from menu icon */
 .bp3-menu-item::before,
 .bp3-menu-item > .bp3-icon {
