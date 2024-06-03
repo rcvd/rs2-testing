@@ -1993,6 +1993,16 @@ code {
   border-radius: var(--bd-main__parenthicals);
 }
 
+.rm-pomodoro {
+  background-color: var(--bc-main__pomodoro);
+  border-top: var(--bt-main__pomodoro);
+  border-right: var(--br-main__pomodoro);
+  border-bottom: var(--bb-main__pomodoro);
+  border-left: var(--bl-main__pomodoro);
+  border-radius: var(--bd-main__pomodoro);
+  color: var(--co-main__pomodoro);
+}
+
 .rm-query, .rm-search-query {
   border-top: var(--bt-main__query);
   border-right: var(--br-main__query);

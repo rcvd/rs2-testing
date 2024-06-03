@@ -813,6 +813,13 @@
   --bb-main__parenthicals: transparent;
   --bl-main__parenthicals: transparent;
   --bd-main__parenthicals: 5px;
+  --bc-main__pomodoro: var(--cl-gray-900);
+  --bt-main__pomodoro: transparent;
+  --br-main__pomodoro: transparent;
+  --bb-main__pomodoro: transparent;
+  --bl-main__pomodoro: transparent;
+  --bd-main__pomodoro: ;
+  --co-main__pomodoro: var(--cl-gray-100);
   --bt-main__query: .5px solid var(--cl-gray-600);
   --br-main__query: .5px solid var(--cl-gray-600);
   --bb-main__query: .5px solid var(--cl-gray-600);
@@ -820,6 +827,7 @@
   --bc-main__query-title: transparent;
   --bb-main__query-title: .5px solid var(--cl-gray-600);
   --co-main__query-title: var(--cl-gray-100);
+  --co-main__query-error: var(--cl-red-500);
   --bc-main__ref-count--active: var(--cl-gray-750);
   --co-main__ref-count--active: var(--cl-gray-100);
   --co-main__reference-keyprompt: var(--cl-gray-500);

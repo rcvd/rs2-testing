@@ -158,14 +158,6 @@ table.bp3-html-table tfoot tr:first-child td {
   opacity: 1;
 }
 
-.rm-caret.rm-caret-showing {
-  background-color: var(--bc-main);
-}
-
-#right-sidebar .rm-caret.rm-caret-showing {
-  background-color: var(--bc-right-sidebar);
-}
-
 /* Fix the date picker day size */
 .rm-jump-date-picker .bp3-datepicker-day-wrapper {
   width: 35px;
@@ -517,7 +509,7 @@ code {
 
 /* Move the reference headings to the left and increase the top margin */
 .rm-reference-main > div > div:not(.rm-reference-container) > .flex-h-box {
-  margin: 16px 0 0 -16px;
+  margin: 16px 0 0 0px;
 }
 
 .rm-reference-main > span {
@@ -561,7 +553,7 @@ code {
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
   min-width: 18px;
   min-height: 16px;
-  opacity: 0;
+  opacity: 0.5;
 }
 
 .rm-mentions .rm-ref-page-view:hover .rm-title-arrow-wrapper .rm-caret {
