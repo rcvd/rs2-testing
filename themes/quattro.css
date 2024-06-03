@@ -5,11 +5,7 @@
 @import url("https://rcvd.github.io/rs2-testing/internal/quattro/common/colors.css");
 @import url("https://rcvd.github.io/rs2-testing/internal/quattro/common/fonts.css");
 @import url("https://rcvd.github.io/rs2-testing/internal/quattro/common/fixes.css");
-@import url("https://rcvd.github.io/rs2-testing/internal/quattro/light/fixes.css")
-(prefers-color-scheme: light);
-@import url("https://rcvd.github.io/rs2-testing/internal/quattro/dark/fixes.css")
-(prefers-color-scheme: dark);
-@import url("https://rcvd.github.io/rs2-testing/internal/quattro/light/vars.css")
-(prefers-color-scheme: light);
-@import url("https://rcvd.github.io/rs2-testing/internal/quattro/dark/vars.css")
-(prefers-color-scheme: dark);
+@import url("https://rcvd.github.io/rs2-testing/internal/quattro/light/fixes.css") (prefers-color-scheme: light);
+@import url("https://rcvd.github.io/rs2-testing/internal/quattro/dark/fixes.css") (prefers-color-scheme: dark);
+@import url("https://rcvd.github.io/rs2-testing/internal/quattro/light/vars.css") (prefers-color-scheme: light);
+@import url("https://rcvd.github.io/rs2-testing/internal/quattro/dark/vars.css") (prefers-color-scheme: dark);

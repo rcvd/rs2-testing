@@ -5,11 +5,7 @@
 @import url("https://rcvd.github.io/rs2-testing/internal/roam/common/colors.css");
 @import url("https://rcvd.github.io/rs2-testing/internal/roam/common/fonts.css");
 @import url("https://rcvd.github.io/rs2-testing/internal/roam/common/fixes.css");
-@import url("https://rcvd.github.io/rs2-testing/internal/roam/light/fixes.css")
-(prefers-color-scheme: light);
-@import url("https://rcvd.github.io/rs2-testing/internal/roam/dark/fixes.css")
-(prefers-color-scheme: dark);
-@import url("https://rcvd.github.io/rs2-testing/internal/roam/light/vars.css")
-(prefers-color-scheme: light);
-@import url("https://rcvd.github.io/rs2-testing/internal/roam/dark/vars.css")
-(prefers-color-scheme: dark);
+@import url("https://rcvd.github.io/rs2-testing/internal/roam/light/fixes.css") (prefers-color-scheme: light);
+@import url("https://rcvd.github.io/rs2-testing/internal/roam/dark/fixes.css") (prefers-color-scheme: dark);
+@import url("https://rcvd.github.io/rs2-testing/internal/roam/light/vars.css") (prefers-color-scheme: light);
+@import url("https://rcvd.github.io/rs2-testing/internal/roam/dark/vars.css") (prefers-color-scheme: dark);
