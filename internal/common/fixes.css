@@ -1026,6 +1026,22 @@ code {
   transition: all 100ms ease-in;
 }
 
+.roam-block:has(span > span > sub) > span > span button::before {
+  content: "Show Tweet";
+}
+
+.roam-block:has(span > span > sub) > span > span > button {
+  color: var(--co-button);
+}
+
+.roam-block:has(span > span > div > div.twitter-tweet) > span > span > button::before {
+  content: "Hide Tweet";
+}
+
+.roam-block:has(span > span > sub) > span > span > sub {
+  display: none;
+}
+
 /* Remove margin from zoom path */
 .rm-zoom.zoom-path-view {
   margin: 0;
