@@ -415,12 +415,12 @@
   --bc-command-palette__shortcut: var(--cl-gray-400);
   --co-command-palette__shortcut: var(--cl-gray-900);
   --bc-control__bullet-closed-inner: var(--cl-gray-300);
-  --bt-control__bullet-closed-inner: 4px solid transparent;
-  --br-control__bullet-closed-inner: 4px solid transparent;
-  --bb-control__bullet-closed-inner: 4px solid transparent;
-  --bl-control__bullet-closed-inner: 4px solid transparent;
+  --bt-control__bullet-closed-inner: 4px solid var(--cl-gray-600);
+  --br-control__bullet-closed-inner: 4px solid var(--cl-gray-600);
+  --bb-control__bullet-closed-inner: 4px solid var(--cl-gray-600);
+  --bl-control__bullet-closed-inner: 4px solid var(--cl-gray-600);
   --bc-control__bullet-ghost: var(--cl-gray-500);
-  --bc-control__bullet-inner: var(--cl-gray-500);
+  --bc-control__bullet-inner: var(--cl-gray-300);
   --br-control__multibar--hover: 3px solid var(--cl-gray-500);
   --br-control__multibar: 1px solid var(--cl-gray-600);
   --co-daily__preview: var(--cl-gray-500);
