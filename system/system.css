@@ -2171,6 +2171,15 @@ code {
   color: var(--co-reference__linked-unlinked-title) !important;
 }
 
+.rm-nested-refs {
+  background-color: var(--bc-reference__nested-refs);
+  border-top: var(--bt-reference__nested-refs);
+  border-right: var(--br-reference__nested-refs);
+  border-bottom: var(--bb-reference__nested-refs);
+  border-left: var(--bl-reference__nested-refs);
+  border-radius: var(--bd-reference__nested-refs);
+}
+
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title:hover {
   text-decoration: var(--td-reference__page-view-title--hover) !important;
 }

@@ -220,6 +220,17 @@ table.bp3-html-table tfoot tr:first-child td {
   margin-left: -4px;
 }
 
+.rm-embed-inner-block-hide .rm-inline-references {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: transparent;
+}
+
+.rm-embed-container:hover > .rm-embed-edit {
+  top: 0px;
+  right: 32px;
+}
+
 .bp3-menu button.emoji-mart-search-icon {
   height: unset;
   width: unset;
@@ -300,6 +311,48 @@ table.bp3-html-table tfoot tr:first-child td {
 
 .rm-graphs__search {
   display: flex;
+}
+
+.rm-heading-level-1 > .rm-block__self {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.rm-heading-level-1 > .rm-block__self > .rm-block__controls {
+  min-height: 42px;
+  margin: 4px 0;
+}
+
+.rm-heading-level-1 > .rm-block__self .rm-block__input {
+  line-height: 42px;
+}
+
+.rm-heading-level-2 > .rm-block__self {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rm-heading-level-2 > .rm-block__self > .rm-block__controls {
+  min-height: 33px;
+  margin: 4px 0;
+}
+
+.rm-heading-level-2 > .rm-block__self .rm-block__input {
+  line-height: 33px;
+}
+
+.rm-heading-level-3 > .rm-block__self {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.rm-heading-level-3 > .rm-block__self > .rm-block__controls {
+  min-height: 27px;
+  margin: 4px 0;
+}
+
+.rm-heading-level-3 > .rm-block__self .rm-block__input {
+  line-height: 27px;
 }
 
 .rm-help-search__icon-container {
