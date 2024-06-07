@@ -1945,6 +1945,7 @@ code {
 
 .rm-page-ref--namespace {
   color: var(--co-main__namespace);
+  font-style: var(--ft-main__namespace);
 }
 
 .rm-option:hover {

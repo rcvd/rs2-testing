@@ -789,7 +789,8 @@
   --bc-main__kanban-card: var(--cl-white);
   --bc-main__kanban-column: var(--cl-gray-200);
   --bb-main__kanban-title: 1px solid var(--cl-gray-600);
-  --co-main__namespace: var(--cl-green-800);
+  --co-main__namespace: var(--cl-gray-900);
+  --ft-main__namespace: italic;
   --bc-main__option--hover: var(--cl-gray-150);
   --sd-main__option--hover: inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1);
   --co-main__option--hover: var(--cl-gray-900);
