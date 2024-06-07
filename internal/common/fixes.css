@@ -75,21 +75,13 @@
 .bp3-input-group.bp3-small > .bp3-input-left-container > .bp3-icon,
 .bp3-input-group.bp3-small > .bp3-icon,
 .bp3-input-group.bp3-small .bp3-input-action > .bp3-spinner {
-  margin: 5px;
-}
-
-.bp3-input-group.bp3-small .bp3-button {
-  min-height: 22px;
+  margin: 4px;
 }
 
 .bp3-button[class*=bp3-icon-]::before,
-.bp3-icon {
-  font-size: 1rem !important;
-}
-
 .bp3-icon svg {
-  height: 1rem;
-  width: 1rem;
+  height: 16px;
+  width: 16px;
 }
 
 .bp3-running-text table tbody tr:first-child th,
