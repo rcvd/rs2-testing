@@ -67,19 +67,13 @@
   left: 10px;
 }
 
-/* Make sure that the font size of the icons is the same as the font size of the text */
-.bp3-control .bp3-control-indicator {
-  font-size: 1rem;
-}
-
 .bp3-input-group.bp3-small > .bp3-input-left-container > .bp3-icon,
 .bp3-input-group.bp3-small > .bp3-icon,
 .bp3-input-group.bp3-small .bp3-input-action > .bp3-spinner {
   margin: 4px;
 }
 
-.bp3-button[class*=bp3-icon-]::before,
-.bp3-icon svg {
+.bp3-button[class*=bp3-icon-]::before {
   height: 16px;
   width: 16px;
 }
@@ -647,6 +641,7 @@ code {
 
 .rm-inline-references .rm-filter-popup-button {
   margin-top: 3px;
+  margin-right: 8px;
 }
 
 .rm-reference-item-link-button {
