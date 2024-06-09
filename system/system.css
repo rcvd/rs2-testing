@@ -1366,6 +1366,10 @@ button.emoji-mart-search-icon {
   color: var(--co-find-or-create__menu-item--selected);
 }
 
+.rm-find-or-create__menu > div[style*="color: rgb(206, 217, 224);"] {
+  color: var(--co-find-or-create__recent) !important;
+}
+
 .rm-find-or-create-wrapper .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] .rm-search-list-item {
   color: var(--co-find-or-create__search-list-item--selected);
 }
@@ -2168,7 +2172,7 @@ code {
   background-color: var(--bc-reference__item);
 }
 
-.rm-reference-main div[style="color: rgb(206, 217, 224);"], .rm-reference-main strong[style="color: rgb(206, 217, 224);"], .rm-reference-container div[style="color: rgb(206, 217, 224);"], .rm-reference-container strong[style="color: rgb(206, 217, 224);"] {
+.rm-reference-main div[style="color: rgb(206, 217, 224);"] strong, .rm-reference-main strong[style="color: rgb(206, 217, 224);"] {
   color: var(--co-reference__linked-unlinked-title) !important;
   font-weight: var(--fw-reference__linked-unlinked-title) !important;
 }

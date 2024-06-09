@@ -556,6 +556,7 @@
   --co-find-or-create__label: var(--cl-green-600);
   --bc-find-or-create__menu-item--selected: rgba(138,155,168,.3);
   --co-find-or-create__menu-item--selected: var(--cl-gray-100);
+  --co-find-or-create__recent: var(--cl-gray-500);
   --co-find-or-create__search-list-item--selected: var(--cl-gray-300);
   --co-find-or-create__search-list-item: var(--cl-gray-300);
   --bc-help__category-menu-item--hover: rgba(138,155,168,.15);

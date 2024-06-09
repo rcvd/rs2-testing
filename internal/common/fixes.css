@@ -1138,12 +1138,15 @@ code {
 
 /* Remove margin from zoom path */
 .rm-zoom.zoom-path-view {
-  margin: 0;
+  margin: 4px 0;
 }
 
-/* Remove the padding of the first child */
-.rm-zoom .rm-zoom-item:first-child .rm-zoom-item-content {
-  padding-left: 0;
+.rm-zoom .rm-zoom-item .rm-zoom-item-content {
+  padding: 0;
+}
+
+.rm-zoom-item .rm-mention-icon {
+  margin: 0 5px;
 }
 
 .rm-zoom-path .rm-zoom-item .rm-zoom-item-content {
