@@ -2185,6 +2185,10 @@ code {
   text-decoration: var(--td-reference__page-view-title--hover) !important;
 }
 
+.rm-mentions .rm-ref-page-view .rm-ref-page-view-title {
+  font-weight: var(--fw-reference__page-view-title);
+}
+
 .rm-mentions-search__input:focus {
   background-color: var(--bc-reference__search-input--focus);
 }

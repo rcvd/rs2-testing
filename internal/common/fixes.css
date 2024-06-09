@@ -42,10 +42,22 @@
 
 /* Remove the unnecessary calc and margin */
 /* The min height of a block is based on the base font size and the padding */
+#block-input-ghost {
+  min-height: 31px !important;
+}
+
 .roam-block {
   min-height: 31px;
   line-height: 23px;
   margin-top: 0;
+}
+
+.rm-block--ghost {
+  margin-left: 27px;
+}
+
+.roam-log-page .rm-block--ghost {
+  margin-left: -16px;
 }
 
 /* Remove top margin from block input */
@@ -486,7 +498,7 @@ textarea {
 
 /* Remove negative margin from content area */
 .rm-block__children.rm-level-0 {
-  margin-left: 0;
+  margin-left: -16px;
 }
 
 /* Fix inline code within the normal block height */
@@ -555,13 +567,13 @@ code {
 }
 
 .rm-reference-main:not(.rm-search-query-content) {
-  margin: 0;
+  margin: 0 0 0 -16px;
   padding-top: 0 !important;
 }
 
 /* Add an addition bottom margin to references and remove the left margin */
 .rm-mentions .rm-ref-page-view {
-  margin-bottom: 4px;
+  margin-bottom: 8px;
   margin-left: 0;
 }
 
@@ -619,9 +631,10 @@ code {
 
 /* Hide caret on un-hovered reference titles */
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
-  min-width: 18px;
+  min-width: 16px;
   min-height: 16px;
-  opacity: 0.5;
+  opacity: 0;
+  margin-right: 2px;
 }
 
 .rm-mentions .rm-ref-page-view:hover .rm-title-arrow-wrapper .rm-caret {
@@ -630,7 +643,7 @@ code {
 
 /* Adjust the caret position */
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper {
-  margin-left: 0px;
+  margin-left: -18px;
 }
 
 /* Remove the left padding */
@@ -687,6 +700,10 @@ code {
 
 .rm-block-children .rm-reference-container > .flex-h-box > div:nth-child(2) {
   flex: 0 1 24px !important;
+}
+
+.rm-ref-page-view-title > a {
+  text-decoration: none !important;
 }
 
 /* Hide the window header caret by default */
@@ -1139,4 +1156,8 @@ code {
 
 .rm-zoom-mask .bp3-icon-standard {
   margin-top: 2px;
+}
+
+.roam-article > div > div[style="margin-left: -20px;"] {
+  margin-left: -18px !important;
 }

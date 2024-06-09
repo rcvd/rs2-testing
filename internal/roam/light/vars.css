@@ -893,6 +893,7 @@
   --bl-reference__nested-refs: 2px solid var(--cl-gold-500);
   --bd-reference__nested-refs: 5px;
   --td-reference__page-view-title--hover: none;
+  --fw-reference__page-view-title: 500;
   --bc-reference__search-input--focus: var(--cl-white);
   --bc-reference__search-input: transparent;
   --co-right-sidebar__helper-text: var(--cl-gray-500);
