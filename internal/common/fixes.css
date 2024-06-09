@@ -179,11 +179,29 @@ table.bp3-html-table tfoot tr:first-child td {
 /* Remove left padding for page embed */
 .rm-embed--page,
 .rm-embed-container--block {
-  padding-left: 16px;
+  margin-left: -19px;
+  margin-top: -4px;
+  padding-left: 0;
 }
 
 .rm-embed--page > .rm-embed-margin-action {
   margin-left: 5px;
+}
+
+.rm-hide-bullet > .rm-hide-bullet {
+  overflow-x: auto !important;
+}
+
+.rm-hide-bullet > .rm-hide-bullet {
+  padding-left: 16px;
+}
+
+.rm-show-bullet {
+  margin-left: 14px;
+}
+
+.rm-embed-margin-action {
+  display: none;
 }
 
 .rm-embed--page > .rm-embed-margin-action.rm-open {
@@ -210,6 +228,8 @@ table.bp3-html-table tfoot tr:first-child td {
   padding-left: 10px;
   padding-right: 10px;
   background-color: transparent;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .rm-embed-container:hover > .rm-embed-edit {
@@ -618,6 +638,10 @@ code {
   padding-left: 0;
 }
 
+.rm-inline-reference .rm-multibar {
+  display: none;
+}
+
 /* Fix overlong non-breaking titles */
 .rm-page__title {
   overflow-wrap: break-word;
@@ -640,8 +664,8 @@ code {
 }
 
 .rm-inline-references .rm-filter-popup-button {
-  margin-top: 3px;
-  margin-right: 8px;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 .rm-reference-item-link-button {
@@ -649,8 +673,12 @@ code {
   margin-left: 3px;
 }
 
-.rm-reference-container > .flex-h-box {
+.rm-reference-main > div > .flex-h-box {
   margin-left: -16px;
+}
+
+.rm-reference-main .rm-mentions {
+  margin-left: 18px;
 }
 
 .rm-block-children .rm-reference-container > .flex-h-box > .rm-caret {
