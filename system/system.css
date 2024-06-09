@@ -2170,6 +2170,7 @@ code {
 
 .rm-reference-main div[style="color: rgb(206, 217, 224);"], .rm-reference-main strong[style="color: rgb(206, 217, 224);"], .rm-reference-container div[style="color: rgb(206, 217, 224);"], .rm-reference-container strong[style="color: rgb(206, 217, 224);"] {
   color: var(--co-reference__linked-unlinked-title) !important;
+  font-weight: var(--fw-reference__linked-unlinked-title) !important;
 }
 
 .rm-nested-refs {

@@ -885,7 +885,8 @@
   --co-menu__button-icon: var(--cl-gray-600);
   --co-reference__filter-icon--active: var(--cl-blue-700);
   --bc-reference__item: var(--cl-gray-150);
-  --co-reference__linked-unlinked-title: var(--cl-gray-500);
+  --co-reference__linked-unlinked-title: var(--cl-gray-900);
+  --fw-reference__linked-unlinked-title: 500;
   --bc-reference__nested-refs: transparent;
   --bt-reference__nested-refs: 2px solid var(--cl-gold-500);
   --br-reference__nested-refs: 2px solid var(--cl-gold-500);
