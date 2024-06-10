@@ -709,6 +709,11 @@
   --bl-main__alias-tooltip-content-bq: transparent;
   --co-main__alias-tooltip-content-bq: var(--cl-gray-900);
   --co-main__block-ghost: var(--cl-gray-500);
+  --bt-main__block-highlight-yellow: ;
+  --br-main__block-highlight-yellow: ;
+  --bb-main__block-highlight-yellow: ;
+  --bl-main__block-highlight-yellow: ;
+  --sd-main__block-highlight-yellow: ;
   --bc-main__block-ref--hover: transparent;
   --bb-main__block-ref: 1px dotted var(--cl-gray-300);
   --co-main__block-view-comment-card-display-name: var(--cl-gray-900);

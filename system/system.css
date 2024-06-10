@@ -1734,6 +1734,15 @@ input {
   color: var(--co-main__block-ghost) !important;
 }
 
+.block-highlight-yellow > .rm-block__self {
+  border-top: var(--bt-main__block-highlight-yellow);
+  border-right: var(--br-main__block-highlight-yellow);
+  border-bottom: var(--bb-main__block-highlight-yellow);
+  border-left: var(--bl-main__block-highlight-yellow);
+  box-shadow: var(--sd-main__block-highlight-yellow);
+  --webkit-box-shadow: var(--sd-main__block-highlight-yellow);
+}
+
 .rm-block-ref:hover {
   background-color: var(--bc-main__block-ref--hover);
 }
