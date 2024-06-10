@@ -713,8 +713,7 @@
   --br-main__block-highlight-yellow: transparent;
   --bb-main__block-highlight-yellow: transparent;
   --bl-main__block-highlight-yellow: transparent;
-  --sd-main__block-highlight-yellow: inset 0px 0px 0px 2px var(--cl-gold-500)
-  inset 0px 0px 0px 2px var(--cl-gold-500);
+  --sd-main__block-highlight-yellow: inset 0px 0px 0px 2px var(--cl-gold-500);
   --bc-main__block-ref--hover: rgba(138,155,168,.15);
   --bb-main__block-ref: 1px dotted var(--cl-gray-500);
   --co-main__block-view-comment-card-display-name: var(--cl-gray-300);
@@ -896,8 +895,7 @@
   --fw-reference__linked-unlinked-title: 500;
   --bc-reference__nested-refs: transparent;
   --bd-reference__nested-refs: 5px;
-  --sd-reference__nested-refs: inset 0px 0px 0px 2px var(--cl-gold-500)
-  box-shadow: inset 0px 0px 0px 2px var(--cl-gold-500);
+  --sd-reference__nested-refs: inset 0px 0px 0px 2px var(--cl-gold-500);
   --td-reference__page-view-title--hover: none;
   --fw-reference__page-view-title: 500;
   --bc-reference__search-input--focus: rgba(16,22,26,.3);
