@@ -2179,10 +2179,6 @@ code {
 
 .rm-nested-refs {
   background-color: var(--bc-reference__nested-refs);
-  border-top: var(--bt-reference__nested-refs);
-  border-right: var(--br-reference__nested-refs);
-  border-bottom: var(--bb-reference__nested-refs);
-  border-left: var(--bl-reference__nested-refs);
   border-radius: var(--bd-reference__nested-refs);
   box-shadow: var(--sd-reference__nested-refs);
   --webkit-box-shadow: var(--sd-reference__nested-refs);

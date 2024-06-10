@@ -889,10 +889,6 @@
   --co-reference__linked-unlinked-title: var(--cl-gray-500);
   --fw-reference__linked-unlinked-title: 500;
   --bc-reference__nested-refs: transparent;
-  --bt-reference__nested-refs: ;
-  --br-reference__nested-refs: ;
-  --bb-reference__nested-refs: ;
-  --bl-reference__nested-refs: ;
   --bd-reference__nested-refs: 5px;
   --sd-reference__nested-refs: inset 0px 0px 0px 2px var(--cl-gold-500)
   box-shadow: inset 0px 0px 0px 2px var(--cl-gold-500);

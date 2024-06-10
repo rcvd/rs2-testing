@@ -71,6 +71,10 @@
   align-self: center;
 }
 
+.block-highlight-yellow > .rm-block__self {
+  border: none;
+}
+
 .rm-E:hover .rm-block__controls {
   display: flex;
 }
