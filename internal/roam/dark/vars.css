@@ -889,11 +889,13 @@
   --co-reference__linked-unlinked-title: var(--cl-gray-500);
   --fw-reference__linked-unlinked-title: 500;
   --bc-reference__nested-refs: transparent;
-  --bt-reference__nested-refs: 2px solid var(--cl-gold-500);
-  --br-reference__nested-refs: 2px solid var(--cl-gold-500);
-  --bb-reference__nested-refs: 2px solid var(--cl-gold-500);
-  --bl-reference__nested-refs: 2px solid var(--cl-gold-500);
+  --bt-reference__nested-refs: ;
+  --br-reference__nested-refs: ;
+  --bb-reference__nested-refs: ;
+  --bl-reference__nested-refs: ;
   --bd-reference__nested-refs: 5px;
+  --sd-reference__nested-refs: inset 0px 0px 0px 2px var(--cl-gold-500)
+  box-shadow: inset 0px 0px 0px 2px var(--cl-gold-500);
   --td-reference__page-view-title--hover: none;
   --fw-reference__page-view-title: 500;
   --bc-reference__search-input--focus: rgba(16,22,26,.3);
@@ -1011,4 +1013,6 @@
   --bc-topbar__sync-synced: var(--cl-green-700);
   --bb-topbar: transparent;
   --co-zoom-path__item: var(--cl-gray-450);
+  --fs-zoom__mentions-view: 13px;
+  --fw-zoom__mentions-view: 500;
 }

@@ -2184,6 +2184,8 @@ code {
   border-bottom: var(--bb-reference__nested-refs);
   border-left: var(--bl-reference__nested-refs);
   border-radius: var(--bd-reference__nested-refs);
+  box-shadow: var(--sd-reference__nested-refs);
+  --webkit-box-shadow: var(--sd-reference__nested-refs);
 }
 
 .rm-mentions .rm-ref-page-view .rm-ref-page-view-title:hover {
@@ -2481,4 +2483,12 @@ code {
 
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-path__item);
+}
+
+.rm-zoom.zoom-mentions-view {
+  font-size: var(--fs-zoom__mentions-view) !important;
+}
+
+.rm-zoom.zoom-mentions-view .rm-bold {
+  font-weight: var(--fw-zoom__mentions-view);
 }

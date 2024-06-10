@@ -191,7 +191,7 @@ table.bp3-html-table tfoot tr:first-child td {
 /* Remove left padding for page embed */
 .rm-embed--page,
 .rm-embed-container--block {
-  margin-left: -19px;
+  margin-left: -39px;
   margin-top: -4px;
   padding-left: 0;
 }
@@ -200,12 +200,13 @@ table.bp3-html-table tfoot tr:first-child td {
   margin-left: 5px;
 }
 
+/*
 .rm-hide-bullet > .rm-hide-bullet {
-  overflow-x: auto !important;
+  overflow-x: auto!important;
 }
-
+*/
 .rm-hide-bullet > .rm-hide-bullet {
-  padding-left: 16px;
+  padding-left: 36px;
 }
 
 .rm-show-bullet {
@@ -240,18 +241,14 @@ table.bp3-html-table tfoot tr:first-child td {
   padding-left: 10px;
   padding-right: 10px;
   background-color: transparent;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
-.rm-embed-container:hover > .rm-embed-edit {
-  top: 0px;
+.rm-embed-container:hover > .rm-embed-edit,
+.rm-embed-container .rm-embed-edit {
+  top: 0.5px;
   right: 32px;
-}
-
-.rm-embed-path.rm-embed-container > .rm-embed-edit {
-  top: 4px;
-  right: 30px;
+  opacity: 1;
+  background-color: transparent;
 }
 
 .rm-embed-path {
@@ -1137,6 +1134,10 @@ code {
 }
 
 /* Remove margin from zoom path */
+.rm-zoom.zoom-mentions-view {
+  margin: 2px 4px;
+}
+
 .rm-zoom.zoom-path-view {
   margin: 4px 0;
 }

@@ -894,6 +894,7 @@
   --bb-reference__nested-refs: ;
   --bl-reference__nested-refs: ;
   --bd-reference__nested-refs: ;
+  --sd-reference__nested-refs: ;
   --td-reference__page-view-title--hover: ;
   --fw-reference__page-view-title: ;
   --bc-reference__search-input--focus: ;
@@ -1011,4 +1012,6 @@
   --bc-topbar__sync-synced: ;
   --bb-topbar: 1px solid var(--cl-gray-225);
   --co-zoom-path__item: ;
+  --fs-zoom__mentions-view: ;
+  --fw-zoom__mentions-view: ;
 }
