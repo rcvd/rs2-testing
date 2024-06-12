@@ -555,7 +555,7 @@ code {
 }
 
 .rm-option {
-  margin: 0 1px;
+  margin: 0 0.5px;
 }
 
 /* Remove unnecessary margin from menu icon */
@@ -581,6 +581,12 @@ code {
 
 .rm-query div[style="color: red;"] {
   margin: 0 8px;
+}
+
+.rm-query-title .bp3-button:not([class*=bp3-intent-]) {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
 }
 
 /* Remove unnecessary margin around references */
@@ -652,7 +658,7 @@ code {
 }
 
 /* Hide caret on un-hovered reference titles */
-.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+.rm-reference-main:not(.rm-query-content) .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
   min-width: 16px;
   min-height: 16px;
   opacity: 0;
