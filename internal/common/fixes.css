@@ -203,11 +203,6 @@ table.bp3-html-table tfoot tr:first-child td {
   margin-left: 5px;
 }
 
-/*
-.rm-hide-bullet > .rm-hide-bullet {
-  overflow-x: auto!important;
-}
-*/
 .rm-hide-bullet > .rm-hide-bullet {
   padding-left: 36px;
 }
@@ -216,11 +211,10 @@ table.bp3-html-table tfoot tr:first-child td {
   margin-left: 14px;
 }
 
-/*
-.rm-embed-margin-action {
+.rm-embed-inner-block-hide > .rm-embed-margin-action {
   display: none;
 }
- */
+
 .rm-embed--page > .rm-embed-margin-action.rm-open {
   margin-left: -5px;
 }
