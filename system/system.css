@@ -795,6 +795,7 @@
 
 .bp3-menu-item:active {
   background-color: var(--bc-bp3__menu-item--active);
+  color: var(--co-bp3__menu-item--active);
 }
 
 .bp3-menu-item:hover, .bp3-submenu .bp3-popover-target.bp3-popover-open > .bp3-menu-item {
@@ -1495,6 +1496,12 @@ a:hover {
   border-bottom: var(--bb-html__a--hover);
   color: var(--co-html__a--hover);
   text-decoration: var(--td-html__a--hover);
+}
+
+a:focus {
+  border-bottom: var(--bb-html__a--focus);
+  color: var(--co-html__a--focus);
+  text-decoration: var(--td-html__a--focus);
 }
 
 a {

@@ -152,7 +152,7 @@ table.bp3-html-table tfoot tr:first-child td {
   width: 9px;
 }
 
-.rm-caret.rm-caret-showing {
+.rm-inline-references .rm-caret.rm-caret-showing {
   opacity: 0;
 }
 
@@ -554,6 +554,10 @@ code {
   overflow: auto;
 }
 
+.rm-option {
+  margin: 0 1px;
+}
+
 /* Remove unnecessary margin from menu icon */
 .bp3-menu-item::before,
 .bp3-menu-item > .bp3-icon {
@@ -564,6 +568,11 @@ code {
 .bp3-menu-item svg {
   height: 16px;
   width: 16px;
+}
+
+.bp3-menu-item.bp3-intent-primary.bp3-active .rm-page-ref--link,
+.bp3-menu-item.bp3-intent-primary.bp3-active .rm-page-ref__brackets {
+  color: var(--co-bp3__menuitem--active);
 }
 
 .roamjs-smartblock-menu .bp3-menu-item img {

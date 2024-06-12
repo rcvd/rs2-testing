@@ -327,6 +327,7 @@
   --co-bp3__menu: var(--cl-gray-900);
   --fs-bp3__menu: ;
   --bc-bp3__menu-item--active: rgba(115,134,148,.3);
+  --co-bp3__menu-item--active: ;
   --bc-bp3__menu-item--hover: var(--cl-gray-400);
   --bb-bp3__menu-item--hover: transparent;
   --co-bp3__menu-item--hover: var(--cl-white);
@@ -606,6 +607,9 @@
   --bb-html__a--hover: 1px solid var(--cl-gray-900);
   --co-html__a--hover: var(--cl-gray-900);
   --td-html__a--hover: none;
+  --bb-html__a--focus: ;
+  --co-html__a--focus: ;
+  --td-html__a--focus: ;
   --bb-html__a: 1px solid var(--cl-gray-900);
   --co-html__a: var(--cl-gray-900);
   --td-html__a: none;

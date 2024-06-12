@@ -327,6 +327,7 @@
   --co-bp3__menu: var(--cl-gray-100);
   --fs-bp3__menu: ;
   --bc-bp3__menu-item--active: rgba(138,155,168,.3);
+  --co-bp3__menu-item--active: ;
   --bc-bp3__menu-item--hover: rgba(138,155,168,.15);
   --bb-bp3__menu-item--hover: ;
   --co-bp3__menu-item--hover: ;
@@ -606,6 +607,9 @@
   --bb-html__a--hover: ;
   --co-html__a--hover: ;
   --td-html__a--hover: none;
+  --bb-html__a--focus: ;
+  --co-html__a--focus: ;
+  --td-html__a--focus: ;
   --bb-html__a: ;
   --co-html__a: ;
   --td-html__a: none;
