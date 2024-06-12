@@ -153,6 +153,10 @@ table.bp3-html-table tfoot tr:first-child td {
 }
 
 .rm-caret.rm-caret-showing {
+  opacity: 0;
+}
+
+.rm-block__self:hover > .controls > .block-expand > .rm-caret {
   opacity: 1;
 }
 
@@ -189,7 +193,6 @@ table.bp3-html-table tfoot tr:first-child td {
 }
 
 /* Remove left padding for page embed */
-.rm-embed--page,
 .rm-embed-container--block {
   margin-left: -39px;
   margin-top: -4px;
@@ -213,10 +216,11 @@ table.bp3-html-table tfoot tr:first-child td {
   margin-left: 14px;
 }
 
+/*
 .rm-embed-margin-action {
   display: none;
 }
-
+ */
 .rm-embed--page > .rm-embed-margin-action.rm-open {
   margin-left: -5px;
 }
@@ -246,15 +250,24 @@ table.bp3-html-table tfoot tr:first-child td {
 .rm-embed-container:hover > .rm-embed-edit,
 .rm-embed-container .rm-embed-edit {
   top: 0.5px;
-  right: 32px;
+  right: 24px;
   opacity: 1;
   background-color: transparent;
+}
+
+.rm-embed-container .rm-embed-edit {
+  opacity: 0;
 }
 
 .rm-embed-path {
   margin-top: -5px;
 }
 
+/*
+.rm-block-main > .roam-block > span > .rm-embed-container {
+  margin-top: 4px;
+}
+*/
 .bp3-menu button.emoji-mart-search-icon {
   height: unset;
   width: unset;
@@ -648,10 +661,11 @@ code {
   padding-left: 0;
 }
 
+/*
 .rm-inline-reference .rm-multibar {
   display: none;
 }
-
+*/
 /* Fix overlong non-breaking titles */
 .rm-page__title {
   overflow-wrap: break-word;
@@ -701,6 +715,10 @@ code {
 
 .rm-ref-page-view-title > a {
   text-decoration: none !important;
+}
+
+.rm-hide-bullet > .rm-embed-inner-block-hide > .controls {
+  display: none;
 }
 
 /* Hide the window header caret by default */
@@ -1122,7 +1140,7 @@ code {
 }
 
 .roam-block:has(span > span > sub) > span > span > button {
-  color: var(--co-button);
+  color: var(--co-bp3-button);
 }
 
 .roam-block:has(span > span > div > div.twitter-tweet) > span > span > button::before {
