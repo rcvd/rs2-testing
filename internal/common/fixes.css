@@ -156,7 +156,11 @@ table.bp3-html-table tfoot tr:first-child td {
   opacity: 0;
 }
 
-.rm-block__self:hover > .controls > .block-expand > .rm-caret {
+.rm-inline-references .rm-inline-reference:hover .rm-caret-showing {
+  opacity: 1;
+}
+
+.rm-block__self:hover > .controls > .block-expand > .rm-caret-showing {
   opacity: 1;
 }
 
@@ -525,6 +529,7 @@ code {
 
 .rm-encrypted-block {
   display: block;
+  margin: 8px;
 }
 
 .check-container {
@@ -990,6 +995,31 @@ code {
 .rm-settings--desktop .rm-extension-settings-heading {
   margin-left: 0;
   margin-top: 20px;
+}
+
+.rm-extensions-new-remote-dev-extension {
+  background-color: var(--bc-dialog);
+  color: var(--co-dialog);
+}
+
+.rm-extensions-new-remote-dev-extension__settings input:focus {
+  background-color: var(--bc-bp3__input);
+  box-shadow: var(--sd-bp3__input--focus);
+  --webkit-box-shadow: var(--sd-bp3__input--focus);
+}
+
+.rm-extensions-new-remote-dev-extension__settings input {
+  background-color: var(--bc-bp3__input);
+  border-top: var(--bt-bp3__input);
+  border-right: var(--br-bp3__input);
+  border-bottom: var(--bb-bp3__input);
+  border-left: var(--bl-bp3__input);
+  border-radius: var(--bd-bp3__input);
+  box-shadow: var(--sd-bp3__input);
+  --webkit-box-shadow: var(--sd-bp3__input);
+  color: var(--co-bp3__input);
+  font-size: var(--fs-bp3__input);
+  font-weight: var(--fw-bp3__input);
 }
 
 .bp3-toast-message {
