@@ -268,6 +268,10 @@ table.bp3-html-table tfoot tr:first-child td {
   margin-top: 4px;
 }
 */
+.rm-embed__content > .rm-reference-main:not(.rm-search-query-content) {
+  margin-top: 16px;
+}
+
 .bp3-menu button.emoji-mart-search-icon {
   height: unset;
   width: unset;
