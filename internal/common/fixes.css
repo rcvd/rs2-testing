@@ -184,6 +184,35 @@ table.bp3-html-table tfoot tr:first-child td {
   border-radius: 3px;
 }
 
+.rm-page-ref-popover .rm-line,
+.rm-page-ref-popover__header {
+  display: none;
+}
+
+.bp3-datepicker .DayPicker-Weekday:first-child,
+.rm-page-ref-popover .bp3-datepicker .DayPicker-WeekNumber {
+  display: none;
+}
+
+.react-flow__controls-button {
+  border: none;
+}
+
+.rm-diagram .react-flow__edge-interaction,
+.rm-diagram .react-flow__edge-path {
+  stroke: var(--co-diagram__edge);
+}
+
+.rm-diagram .react-flow__edge marker {
+  fill: var(--co-diagram__edge) !important;
+  stroke: var(--co-diagram__edge) !important;
+}
+
+.rm-diagram .react-flow__node-group.selected:after,
+.rm-diagram .react-flow__node-block.selected:after {
+  inset: -2px;
+}
+
 /* Remove font size for embedded page title */
 .rm-embed--page .rm-page__title {
   font-size: unset;

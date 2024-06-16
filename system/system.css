@@ -1110,6 +1110,124 @@
   color: var(--co-datepicker__day-without-journal);
 }
 
+.react-flow__controls-button:active {
+  background-color: var(--bc-diagram__button--active);
+  background-image: var(--bi-diagram__button--active);
+  box-shadow: var(--sd-diagram__button--active);
+  --webkit-box-shadow: var(--sd-diagram__button--active);
+  color: var(--co-diagram__button--active);
+}
+
+.react-flow__controls-button:disabled {
+  background-color: var(--bc-diagram__button--disabled);
+  background-image: var(--bi-diagram__button--disabled);
+  box-shadow: var(--sd-diagram__button--disabled);
+  --webkit-box-shadow: var(--sd-diagram__button--disabled);
+  color: var(--co-diagram__button--disabled);
+}
+
+.react-flow__controls-button:disabled:active {
+  background-color: var(--bc-diagram__button--disabled-active);
+}
+
+.react-flow__controls-button:hover {
+  background-color: var(--bc-diagram__button--hover);
+  box-shadow: var(--sd-diagram__button--hover);
+  --webkit-box-shadow: var(--sd-diagram__button--hover);
+  color: var(--co-diagram__button--hover);
+}
+
+.react-flow__controls-button {
+  background-color: var(--bc-diagram__button);
+  background-image: var(--bi-diagram__button);
+  fill: var(--fl-diagram__button);
+  box-shadow: var(--sd-diagram__button);
+  --webkit-box-shadow: var(--sd-diagram__button);
+  color: var(--co-diagram__button);
+}
+
+.rm-diagram .react-flow__node-block:hover {
+  box-shadow: var(--sd-diagram__node--hover);
+  --webkit-box-shadow: var(--sd-diagram__node--hover);
+}
+
+.rm-diagram .react-flow__node-block.selected:after {
+  border-top: var(--bt-diagram__node--selected);
+  border-right: var(--br-diagram__node--selected);
+  border-bottom: var(--bb-diagram__node--selected);
+  border-left: var(--bl-diagram__node--selected);
+  border-radius: var(--bd-diagram__node--selected);
+  box-shadow: var(--sd-diagram__node--selected);
+  --webkit-box-shadow: var(--sd-diagram__node--selected);
+}
+
+.rm-diagram .react-flow__node-block {
+  background-color: var(--bc-diagram__node);
+  border-top: var(--bt-diagram__node);
+  border-right: var(--br-diagram__node);
+  border-bottom: var(--bb-diagram__node);
+  border-left: var(--bl-diagram__node);
+  border-radius: var(--bd-diagram__node);
+  color: var(--co-diagram__node);
+  font-size: var(--fs-diagram__node);
+}
+
+.rm-diagram .react-flow__node-group .rm-node-group__title-inner-wrapper {
+  background-color: var(--bc-diagram__group-title);
+  color: var(--co-diagram__group-title);
+  font-size: var(--fs-diagram__group-title);
+}
+
+.rm-diagram .react-flow__node-group.selected:after {
+  border-top: var(--bt-diagram__group--selected);
+  border-right: var(--br-diagram__group--selected);
+  border-bottom: var(--bb-diagram__group--selected);
+  border-left: var(--bl-diagram__group--selected);
+  border-radius: var(--bd-diagram__group--selected);
+  box-shadow: var(--sd-diagram__group--selected);
+  --webkit-box-shadow: var(--sd-diagram__group--selected);
+}
+
+.rm-diagram .rm-parsed-block-string {
+  color: var(--co-diagram__block-title);
+}
+
+.rm-diagram .react-flow__edge-path {
+  color: var(--co-diagram__edge);
+}
+
+.rm-diagram .rm-diagram-properties-panel {
+  background-color: var(--bc-diagram__properties-panel);
+  box-shadow: var(--sd-diagram__properties-panel);
+  --webkit-box-shadow: var(--sd-diagram__properties-panel);
+}
+
+.rm-diagram .react-flow__minimap {
+  background-color: var(--bc-diagram__minimap);
+}
+
+.rm-diagram .react-flow__minimap-node {
+  fill: var(--fl-diagram__minimap-node);
+  opacity: var(--op-diagram__minimap-node);
+}
+
+.rm-diagram .rm-diagram-node__resize-control {
+  background-color: var(--bc-diagram__resize-control);
+  border-top: var(--bt-diagram__resize-control);
+  border-right: var(--br-diagram__resize-control);
+  border-bottom: var(--bb-diagram__resize-control);
+  border-left: var(--bl-diagram__resize-control);
+}
+
+.rm-diagram .react-flow__controls {
+  box-shadow: var(--sd-diagram__controls);
+  --webkit-box-shadow: var(--sd-diagram__controls);
+}
+
+.rm-diagram {
+  background-color: var(--bc-diagram);
+}
+
 .confirmation-content-dialog .confirmation-content-buttons .confirm-button {
   box-shadow: var(--sd-dialog__confirmation-button);
   --webkit-box-shadow: var(--sd-dialog__confirmation-button);
@@ -1377,6 +1495,46 @@ button.emoji-mart-search-icon {
 
 .rm-find-or-create-wrapper .rm-menu-item .rm-search-list-item {
   color: var(--co-find-or-create__search-list-item);
+}
+
+.rm-graph-view {
+  color: var(--co-graph__label);
+  font-family: var(--ff-graph__label);
+}
+
+.rm-graph-view {
+  color: var(--co-graph);
+}
+
+.rm-graph-view {
+  color: var(--co-graph__default-node);
+}
+
+.rm-graph-view {
+  color: var(--co-graph__unselected-node);
+}
+
+.rm-graph-view {
+  color: var(--co-graph__explore-node);
+}
+
+.rm-graph-view {
+  color: var(--co-graph__default-edge);
+}
+
+.rm-graph-view {
+  color: var(--co-graph__selected-edge);
+}
+
+.rm-graph-view {
+  color: var(--co-graph__unselected-edge);
+}
+
+.rm-graph-view-control-panel {
+  background-color: var(--bc-graph__control-panel);
+  box-shadow: var(--sd-graph__control-panel);
+  --webkit-box-shadow: var(--sd-graph__control-panel);
+  color: var(--co-graph__control-panel);
 }
 
 .rm-help-results .rm-help-categories .rm-help-category-menu-item:hover {
@@ -1841,10 +1999,6 @@ code {
   box-shadow: var(--sd-main__code);
   --webkit-box-shadow: var(--sd-main__code);
   color: var(--co-main__code);
-}
-
-.rm-diagram .rm-parsed-block-string span[style="color: rgb(206, 217, 224);"] {
-  color: var(--co-main__diagram-empty-node) !important;
 }
 
 .rm-embed-container--block {
