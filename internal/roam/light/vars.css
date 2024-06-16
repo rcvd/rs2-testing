@@ -490,7 +490,14 @@
   --bb-diagram__resize-control: 1px solid var(--cl-blue-500);
   --bl-diagram__resize-control: 1px solid var(--cl-blue-500);
   --sd-diagram__controls: none;
+  --bc-diagram__title-panel: transparent;
+  --sd-diagram__title-panel: none;
+  --co-diagram__title-panel: var(--cl-gray-900);
   --bc-diagram: var(--cl-gray-100);
+  --bt-diagram: 1px solid var(--cl-gray-300);
+  --br-diagram: 1px solid var(--cl-gray-300);
+  --bb-diagram: 1px solid var(--cl-gray-300);
+  --bl-diagram: 1px solid var(--cl-gray-300);
   --sd-dialog__confirmation-button: inset 0 0 0 1px rgba(16,22,26,0.4),inset 0 -1px 0 rgba(16,22,26,0.2);
   --bc-dialog__confirmation-cancel-button--active: rgba(115,134,148,0.3);
   --sd-dialog__confirmation-cancel-button--active: none;

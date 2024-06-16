@@ -490,7 +490,14 @@
   --bb-diagram__resize-control: ;
   --bl-diagram__resize-control: ;
   --sd-diagram__controls: ;
+  --bc-diagram__title-panel: ;
+  --sd-diagram__title-panel: ;
+  --co-diagram__title-panel: ;
   --bc-diagram: ;
+  --bt-diagram: ;
+  --br-diagram: ;
+  --bb-diagram: ;
+  --bl-diagram: ;
   --sd-dialog__confirmation-button: none;
   --bc-dialog__confirmation-cancel-button--active: #d0d0d0;
   --sd-dialog__confirmation-cancel-button--active: none;

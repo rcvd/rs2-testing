@@ -1224,8 +1224,19 @@
   --webkit-box-shadow: var(--sd-diagram__controls);
 }
 
+.rm-diagram-title-panel {
+  background-color: var(--bc-diagram__title-panel);
+  box-shadow: var(--sd-diagram__title-panel);
+  --webkit-box-shadow: var(--sd-diagram__title-panel);
+  color: var(--co-diagram__title-panel);
+}
+
 .rm-diagram {
   background-color: var(--bc-diagram);
+  border-top: var(--bt-diagram);
+  border-right: var(--br-diagram);
+  border-bottom: var(--bb-diagram);
+  border-left: var(--bl-diagram);
 }
 
 .confirmation-content-dialog .confirmation-content-buttons .confirm-button {
