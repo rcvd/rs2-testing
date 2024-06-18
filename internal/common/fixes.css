@@ -1144,7 +1144,7 @@ code {
   margin-right: 2px;
 }
 
-.rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper:hover .rm-caret {
+.rm-reference-main:not(.rm-query-content) .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper:hover .rm-caret {
   opacity: 1;
 }
 
