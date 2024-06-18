@@ -1146,28 +1146,129 @@
   color: var(--co-diagram__button);
 }
 
-.rm-diagram .react-flow__node-block:hover {
-  box-shadow: var(--sd-diagram__node--hover);
-  --webkit-box-shadow: var(--sd-diagram__node--hover);
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--black);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--black);
+  color: var(--co-diagram__node--black);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--gray);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--gray);
+  color: var(--co-diagram__node--gray);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--red);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--red);
+  color: var(--co-diagram__node--red);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--rose);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--rose);
+  color: var(--co-diagram__node--rose);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--violet);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--violet);
+  color: var(--co-diagram__node--violet);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--indigo);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--indigo);
+  color: var(--co-diagram__node--indigo);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--turquoise);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--turquoise);
+  color: var(--co-diagram__node--turquoise);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--blue);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--blue);
+  color: var(--co-diagram__node--blue);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--green);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--green);
+  color: var(--co-diagram__node--green);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--orange);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--orange);
+  color: var(--co-diagram__node--orange);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--gold);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--gold);
+  color: var(--co-diagram__node--gold);
+}
+
+.rm-diagram .node-border-dummy {
+  color: var(--co-diagram__node-border--sepia);
+}
+
+.rm-diagram .node-dummy {
+  background-color: var(--bc-diagram__node--sepia);
+  color: var(--co-diagram__node--sepia);
 }
 
 .rm-diagram .react-flow__node-block.selected:after {
-  border-top: var(--bt-diagram__node--selected);
-  border-right: var(--br-diagram__node--selected);
-  border-bottom: var(--bb-diagram__node--selected);
-  border-left: var(--bl-diagram__node--selected);
-  border-radius: var(--bd-diagram__node--selected);
   box-shadow: var(--sd-diagram__node--selected);
   --webkit-box-shadow: var(--sd-diagram__node--selected);
 }
 
-.rm-diagram .react-flow__node-block {
-  background-color: var(--bc-diagram__node);
-  border-top: var(--bt-diagram__node);
-  border-right: var(--br-diagram__node);
-  border-bottom: var(--bb-diagram__node);
-  border-left: var(--bl-diagram__node);
-  border-radius: var(--bd-diagram__node);
+.rm-diagram .react-flow__node-block:hover, .rm-diagram .react-flow__node-block.selected:hover:after {
+  box-shadow: var(--sd-diagram__node--hover);
+  --webkit-box-shadow: var(--sd-diagram__node--hover);
+}
+
+.react-flow__node span[style="color: rgb(206, 217, 224);"] {
+  color: var(--co-diagram__node-empty) !important;
+}
+
+.rm-diagram .node-dummy {
   color: var(--co-diagram__node);
   font-size: var(--fs-diagram__node);
 }
@@ -1192,8 +1293,52 @@
   color: var(--co-diagram__block-title);
 }
 
-.rm-diagram .react-flow__edge-path {
-  color: var(--co-diagram__edge);
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--black);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--gray);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--red);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--rose);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--violet);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--indigo);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--turquoise);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--blue);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--green);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--orange);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--gold);
+}
+
+.rm-diagram .edge-dummy {
+  color: var(--co-diagram__edge--sepia);
 }
 
 .rm-diagram .rm-diagram-properties-panel {
@@ -1229,6 +1374,16 @@
   box-shadow: var(--sd-diagram__title-panel);
   --webkit-box-shadow: var(--sd-diagram__title-panel);
   color: var(--co-diagram__title-panel);
+}
+
+.rm-diagram .react-flow__node-toolbar {
+  background-color: var(--bc-diagram__toolbar);
+  border-top: var(--bt-diagram__toolbar);
+  border-right: var(--br-diagram__toolbar);
+  border-bottom: var(--bb-diagram__toolbar);
+  border-left: var(--bl-diagram__toolbar);
+  box-shadow: var(--sd-diagram__toolbar);
+  --webkit-box-shadow: var(--sd-diagram__toolbar);
 }
 
 .rm-diagram {
@@ -1508,36 +1663,36 @@ button.emoji-mart-search-icon {
   color: var(--co-find-or-create__search-list-item);
 }
 
-.rm-graph-view {
+.rm-graph-view-dummy {
   color: var(--co-graph__label);
   font-family: var(--ff-graph__label);
 }
 
-.rm-graph-view {
-  color: var(--co-graph);
+.rm-graph-view #rm-canvas-container {
+  background-color: var(--bc-graph);
 }
 
-.rm-graph-view {
+.rm-graph-view-dummy {
   color: var(--co-graph__default-node);
 }
 
-.rm-graph-view {
+.rm-graph-view-dummy {
   color: var(--co-graph__unselected-node);
 }
 
-.rm-graph-view {
+.rm-graph-view-dummy {
   color: var(--co-graph__explore-node);
 }
 
-.rm-graph-view {
+.rm-graph-view-dummy {
   color: var(--co-graph__default-edge);
 }
 
-.rm-graph-view {
+.rm-graph-view-dummy {
   color: var(--co-graph__selected-edge);
 }
 
-.rm-graph-view {
+.rm-graph-view-dummy {
   color: var(--co-graph__unselected-edge);
 }
 

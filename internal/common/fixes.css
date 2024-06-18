@@ -53,11 +53,11 @@
 }
 
 .rm-block--ghost {
-  margin-left: 27px;
+  margin-left: -8px !important;
 }
 
 .roam-log-page .rm-block--ghost {
-  margin-left: -16px;
+  margin-left: -16px !important;
 }
 
 /* Remove top margin from block input */
@@ -189,7 +189,7 @@ table.bp3-html-table tfoot tr:first-child td {
   display: none;
 }
 
-.bp3-datepicker .DayPicker-Weekday:first-child,
+.rm-page-ref-popover .bp3-datepicker .DayPicker-Weekday:first-child,
 .rm-page-ref-popover .bp3-datepicker .DayPicker-WeekNumber {
   display: none;
 }
@@ -198,19 +198,457 @@ table.bp3-html-table tfoot tr:first-child td {
   border: none;
 }
 
-.rm-diagram .react-flow__edge-interaction,
-.rm-diagram .react-flow__edge-path {
-  stroke: var(--co-diagram__edge);
-}
-
-.rm-diagram .react-flow__edge marker {
-  fill: var(--co-diagram__edge) !important;
-  stroke: var(--co-diagram__edge) !important;
-}
-
 .rm-diagram .react-flow__node-group.selected:after,
 .rm-diagram .react-flow__node-block.selected:after {
   inset: -2px;
+}
+
+.rm-diagram .rm-diagram-outline-container .rm-diagram-outline > div {
+  margin-left: 0;
+}
+
+.rm-diagram .react-flow__edge > g {
+  --edge-stroke-color: var(--co-diagram__edge);
+}
+
+/* Default (Gray) node */
+.react-flow__node {
+  --block-fill-color: var(--co-diagram__node--gray)!important;
+  --block-border-color: var(--co-diagram__node-border--gray)!important;
+  --block-font-size: var(--fs-diagram__node);
+  --block-text-color: var(--co-diagram__node);
+}
+
+/* Black node */
+.react-flow__node[style*="block-fill-color: #e6e6e6;"] {
+  --block-fill-color: var(--co-diagram__node--black)!important;
+  --block-border-color: var(--co-diagram__node-border--black)!important;
+}
+
+/* Red node */
+.react-flow__node[style*="block-fill-color: #fef1f1;"] {
+  --block-fill-color: var(--co-diagram__node--red)!important;
+  --block-border-color: var(--co-diagram__node-border--red)!important;
+}
+
+/* Rose node */
+.react-flow__node[style*="block-fill-color: #fff0f6;"] {
+  --block-fill-color: var(--co-diagram__node--rose)!important;
+  --block-border-color: var(--co-diagram__node-border--rose)!important;
+}
+
+/* Violet node */
+.react-flow__node[style*="block-fill-color: #f9f1f9;"] {
+  --block-fill-color: var(--co-diagram__node--violet)!important;
+  --block-border-color: var(--co-diagram__node-border--violet)!important;
+}
+
+/* Indigo node */
+.react-flow__node[style*="block-fill-color: #f7f5ff;"] {
+  --block-fill-color: var(--co-diagram__node--indigo)!important;
+  --block-border-color: var(--co-diagram__node-border--indigo)!important;
+}
+
+/* Blue node */
+.react-flow__node[style*="block-fill-color: #ecf7fd;"] {
+  --block-fill-color: var(--co-diagram__node--blue)!important;
+  --block-border-color: var(--co-diagram__node-border--blue)!important;
+}
+
+/* Turquoise node */
+.react-flow__node[style*="block-fill-color: #e8fcfb;"] {
+  --block-fill-color: var(--co-diagram__node--turquoise)!important;
+  --block-border-color: var(--co-diagram__node-border--turquoise)!important;
+}
+
+/* Green node */
+.react-flow__node[style*="block-fill-color: #ebfaf3;"] {
+  --block-fill-color: var(--co-diagram__node--green)!important;
+  --block-border-color: var(--co-diagram__node-border--green)!important;
+}
+
+/* Orange node */
+.react-flow__node[style*="block-fill-color: #fff7f0;"] {
+  --block-fill-color: var(--co-diagram__node--orange)!important;
+  --block-border-color: var(--co-diagram__node-border--orange)!important;
+}
+
+/* Gold node */
+.react-flow__node[style*="block-fill-color: #fef9ec;"] {
+  --block-fill-color: var(--co-diagram__node--gold)!important;
+  --block-border-color: var(--co-diagram__node-border--gold)!important;
+}
+
+/* Sepia node */
+.react-flow__node[style*="block-fill-color: #faf5f0;"] {
+  --block-fill-color: var(--co-diagram__node--sepia)!important;
+  --block-border-color: var(--co-diagram__node-border--sepia)!important;
+}
+
+/* Default edge */
+.react-flow__edge > g {
+  --edge-stroke-color: var(--co-diagram__edge--gray)!important;
+}
+
+.react-flow__edge > g marker {
+  stroke: var(--co-diagram__edge--gray) !important;
+  fill: var(--co-diagram__edge--gray) !important;
+}
+
+/* Black edge */
+.react-flow__edge > g[style*="--edge-stroke-color: rgb(0,0,0);"] {
+  --edge-stroke-color: var(--co-diagram__edge--black)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: rgb(0,0,0);"] marker {
+  stroke: var(--co-diagram__edge--black) !important;
+  fill: var(--co-diagram__edge--black) !important;
+}
+
+/* Red edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #F55656;"] {
+  --edge-stroke-color: var(--co-diagram__edge--red)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #F55656;"] marker {
+  stroke: var(--co-diagram__edge--red) !important;
+  fill: var(--co-diagram__edge--red) !important;
+}
+
+/* Rose edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #FF66A1;"] {
+  --edge-stroke-color: var(--co-diagram__edge--rose)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #FF66A1;"] marker {
+  stroke: var(--co-diagram__edge--rose) !important;
+  fill: var(--co-diagram__edge--rose) !important;
+}
+
+/* Violet edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #C274C2;"] {
+  --edge-stroke-color: var(--co-diagram__edge--violet)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #C274C2;"] marker {
+  stroke: var(--co-diagram__edge--violet) !important;
+  fill: var(--co-diagram__edge--violet) !important;
+}
+
+/* Indigo edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #AD99FF;"] {
+  --edge-stroke-color: var(--co-diagram__edge--indigo)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #AD99FF;"] marker {
+  stroke: var(--co-diagram__edge--indigo) !important;
+  fill: var(--co-diagram__edge--indigo) !important;
+}
+
+/* Blue edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #48AFF0;"] {
+  --edge-stroke-color: var(--co-diagram__edge--blue)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #48AFF0;"] marker {
+  stroke: var(--co-diagram__edge--blue) !important;
+  fill: var(--co-diagram__edge--blue) !important;
+}
+
+/* Turquoise edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #2EE6D6;"] {
+  --edge-stroke-color: var(--co-diagram__edge--turquoise)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #2EE6D6;"] marker {
+  stroke: var(--co-diagram__edge--turquoise) !important;
+  fill: var(--co-diagram__edge--turquoise) !important;
+}
+
+/* Green edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #3DCC91;"] {
+  --edge-stroke-color: var(--co-diagram__edge--green)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #3DCC91;"] marker {
+  stroke: var(--co-diagram__edge--green) !important;
+  fill: var(--co-diagram__edge--green) !important;
+}
+
+/* Orange edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #FFB366;"] {
+  --edge-stroke-color: var(--co-diagram__edge--orange)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #FFB366;"] marker {
+  stroke: var(--co-diagram__edge--orange) !important;
+  fill: var(--co-diagram__edge--orange) !important;
+}
+
+/* Gold edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #F2B824;"] {
+  --edge-stroke-color: var(--co-diagram__edge--gold)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #F2B824;"] marker {
+  stroke: var(--co-diagram__edge--gold) !important;
+  fill: var(--co-diagram__edge--gold) !important;
+}
+
+/* Sepia edge */
+.react-flow__edge > g[style*="--edge-stroke-color: #C99765;"] {
+  --edge-stroke-color: var(--co-diagram__edge--sepia)!important;
+}
+
+.react-flow__edge > g[style*="--edge-stroke-color: #C99765;"] marker {
+  stroke: var(--co-diagram__edge--sepia) !important;
+  fill: var(--co-diagram__edge--sepia) !important;
+}
+
+/* Black picker item */
+.rm-simple-color-picker-item[style="--item-color: black;"] {
+  --item-color: var(--co-diagram__node-border--black)!important;
+}
+
+/* Gray picker item */
+.rm-simple-color-picker-item[style="--item-color: #A7B6C2;"] {
+  --item-color: var(--co-diagram__node-border--gray)!important;
+}
+
+/* Red picker item */
+.rm-simple-color-picker-item[style="--item-color: #F55656;"] {
+  --item-color: var(--co-diagram__node-border--red)!important;
+}
+
+/* Rose picker item */
+.rm-simple-color-picker-item[style="--item-color: #FF66A1;"] {
+  --item-color: var(--co-diagram__node-border--rose)!important;
+}
+
+/* Violet picker item */
+.rm-simple-color-picker-item[style="--item-color: #C274C2;"] {
+  --item-color: var(--co-diagram__node-border--violet)!important;
+}
+
+/* Indigo picker item */
+.rm-simple-color-picker-item[style="--item-color: #AD99FF;"] {
+  --item-color: var(--co-diagram__node-border--indigo)!important;
+}
+
+/* Blue picker item */
+.rm-simple-color-picker-item[style="--item-color: #48AFF0;"] {
+  --item-color: var(--co-diagram__node-border--blue)!important;
+}
+
+/* Turquoise picker item */
+.rm-simple-color-picker-item[style="--item-color: #2EE6D6;"] {
+  --item-color: var(--co-diagram__node-border--turquoise)!important;
+}
+
+/* Green picker item */
+.rm-simple-color-picker-item[style="--item-color: #3DCC91;"] {
+  --item-color: var(--co-diagram__node-border--green)!important;
+}
+
+/* Orange picker item */
+.rm-simple-color-picker-item[style="--item-color: #FFB366;"] {
+  --item-color: var(--co-diagram__node-border--orange)!important;
+}
+
+/* Gold picker item */
+.rm-simple-color-picker-item[style="--item-color: #F2B824;"] {
+  --item-color: var(--co-diagram__node-border--gold)!important;
+}
+
+/* Sepia picker item */
+.rm-simple-color-picker-item[style="--item-color: #C99765;"] {
+  --item-color: var(--co-diagram__node-border--sepia)!important;
+}
+
+/* Gray group */
+.rm-diagram .react-flow__node-group {
+  --group-title-fill-color: var(--co-diagram__node--red)!important;
+  --group-area-fill-color: var(--bc-diagram__node--red)!important;
+  --group-border-color: var(--co-diagram__node-border--red)!important;
+}
+
+/* Black group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: black;"] {
+  --group-title-fill-color: var(--co-diagram__node--black)!important;
+  --group-area-fill-color: var(--bc-diagram__node--black)!important;
+  --group-border-color: var(--co-diagram__node-border--black)!important;
+}
+
+/* Red group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #F55656;"] {
+  --group-title-fill-color: var(--co-diagram__node--red)!important;
+  --group-area-fill-color: var(--bc-diagram__node--red)!important;
+  --group-border-color: var(--co-diagram__node-border--red)!important;
+}
+
+/* Rose group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #FF66A1;"] {
+  --group-title-fill-color: var(--co-diagram__node--rose)!important;
+  --group-area-fill-color: var(--bc-diagram__node--rose)!important;
+  --group-border-color: var(--co-diagram__node-border--rose)!important;
+}
+
+/* Violet group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #C274C2;"] {
+  --group-title-fill-color: var(--co-diagram__node--violet)!important;
+  --group-area-fill-color: var(--bc-diagram__node--violet)!important;
+  --group-border-color: var(--co-diagram__node-border--violet)!important;
+}
+
+/* Indigo group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #AD99FF;"] {
+  --group-title-fill-color: var(--co-diagram__node--indigo)!important;
+  --group-area-fill-color: var(--bc-diagram__node--indigo)!important;
+  --group-border-color: var(--co-diagram__node-border--indigo)!important;
+}
+
+/* Blue group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #48AFF0;"] {
+  --group-title-fill-color: var(--co-diagram__node--blue)!important;
+  --group-area-fill-color: var(--bc-diagram__node--blue)!important;
+  --group-border-color: var(--co-diagram__node-border--blue)!important;
+}
+
+/* Turquoise group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #2EE6D6;"] {
+  --group-title-fill-color: var(--co-diagram__node--turquoise)!important;
+  --group-area-fill-color: var(--bc-diagram__node--turquoise)!important;
+  --group-border-color: var(--co-diagram__node-border--turquoise)!important;
+}
+
+/* Green group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #3DCC91;"] {
+  --group-title-fill-color: var(--co-diagram__node--green)!important;
+  --group-area-fill-color: var(--bc-diagram__node--green)!important;
+  --group-border-color: var(--co-diagram__node-border--green)!important;
+}
+
+/* Orange group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #FFB366;"] {
+  --group-title-fill-color: var(--co-diagram__node--orange)!important;
+  --group-area-fill-color: var(--bc-diagram__node--orange)!important;
+  --group-border-color: var(--co-diagram__node-border--orange)!important;
+}
+
+/* Gold group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #F2B824;"] {
+  --group-title-fill-color: var(--co-diagram__node--gold)!important;
+  --group-area-fill-color: var(--bc-diagram__node--gold)!important;
+  --group-border-color: var(--co-diagram__node-border--gold)!important;
+}
+
+/* Sepia group */
+.rm-diagram .react-flow__node-group[style*="--group-title-fill-color: #C99765;"] {
+  --group-title-fill-color: var(--co-diagram__node--sepia)!important;
+  --group-area-fill-color: var(--bc-diagram__node--sepia)!important;
+  --group-border-color: var(--co-diagram__node-border--sepia)!important;
+}
+
+.rm-diagram .react-flow__node-block.selected:after {
+  border-radius: 8px;
+}
+
+/* Node */
+.color-view[style="background-color: #e6e6e6"] {
+  background-color: var(--co-diagram__node--black) !important;
+}
+
+.color-view[style="background-color: #f6f7f9"] {
+  background-color: var(--co-diagram__node--gray) !important;
+}
+
+.color-view[style="background-color: #fef1f1"] {
+  background-color: var(--co-diagram__node--red) !important;
+}
+
+.color-view[style="background-color: #fff0f6"] {
+  background-color: var(--co-diagram__node--rose) !important;
+}
+
+.color-view[style="background-color: #f9f1f9"] {
+  background-color: var(--co-diagram__node--violet) !important;
+}
+
+.color-view[style="background-color: #f7f5ff"] {
+  background-color: var(--co-diagram__node--indigo) !important;
+}
+
+.color-view[style="background-color: #ecf7fd"] {
+  background-color: var(--co-diagram__node--blue) !important;
+}
+
+.color-view[style="background-color: #e8fcfb"] {
+  background-color: var(--co-diagram__node--turquoise) !important;
+}
+
+.color-view[style="background-color: #ebfaf3"] {
+  background-color: var(--co-diagram__node--green) !important;
+}
+
+.color-view[style="background-color: #fff7f0"] {
+  background-color: var(--co-diagram__node--orange) !important;
+}
+
+.color-view[style="background-color: #fef9ec"] {
+  background-color: var(--co-diagram__node--gold) !important;
+}
+
+.color-view[style="background-color: #faf5f0"] {
+  background-color: var(--co-diagram__node--sepia) !important;
+}
+
+/* Border */
+.color-view[style="background-color: black"] {
+  background-color: var(--co-diagram__node-border--black) !important;
+}
+
+.color-view[style="background-color: #A7B6C2"] {
+  background-color: var(--co-diagram__node-border--gray) !important;
+}
+
+.color-view[style="background-color: #F55656"] {
+  background-color: var(--co-diagram__node-border--red) !important;
+}
+
+.color-view[style="background-color: #FF66A1"] {
+  background-color: var(--co-diagram__node-border--rose) !important;
+}
+
+.color-view[style="background-color: #C274C2"] {
+  background-color: var(--co-diagram__node-border--violet) !important;
+}
+
+.color-view[style="background-color: #AD99FF"] {
+  background-color: var(--co-diagram__node-border--indigo) !important;
+}
+
+.color-view[style="background-color: #48AFF0"] {
+  background-color: var(--co-diagram__node-border--blue) !important;
+}
+
+.color-view[style="background-color: #2EE6D6"] {
+  background-color: var(--co-diagram__node-border--turquoise) !important;
+}
+
+.color-view[style="background-color: #3DCC91"] {
+  background-color: var(--co-diagram__node-border--green) !important;
+}
+
+.color-view[style="background-color: #FFB366"] {
+  background-color: var(--co-diagram__node-border--orange) !important;
+}
+
+.color-view[style="background-color: #F2B824"] {
+  background-color: var(--co-diagram__node-border--gold) !important;
+}
+
+.color-view[style="background-color: #C99765"] {
+  background-color: var(--co-diagram__node-border--sepia) !important;
 }
 
 /* Remove font size for embedded page title */
@@ -350,6 +788,18 @@ table.bp3-html-table tfoot tr:first-child td {
 /* Hide the line */
 .rm-choose-filter .rm-line {
   display: none;
+}
+
+#rm-canvas-container {
+  background-color: var(--cl-gray-900);
+  --graph-overview-label-font: "Bookerly";
+  --graph-overview-label-color: var(--co-graph__label);
+  --graph-overview-default-node-color: var(--co-graph__default-node);
+  --graph-overview-unselected-node-color: var(--co-graph__unselected-node);
+  --graph-overview-explore-node-color: var(--co-graph__explore-node);
+  --graph-overview-default-edge-color: var(--co-graph__default-edge);
+  --graph-overview-selected-edge-color: var(--co-graph__selected-edge);
+  --graph-overview-unselected-edge-color: var(--co-graph__unselected-edge);
 }
 
 /* Setting menu in graph dropdown */
