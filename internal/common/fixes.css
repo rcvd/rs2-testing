@@ -891,7 +891,7 @@ html {
 
 div {
   font-size: unset;
-  line-height: unset;
+  line-height: 23px;
   margin: unset;
   padding: unset;
 }
@@ -899,7 +899,7 @@ div {
 textarea {
   font-family: unset;
   font-size: unset;
-  line-height: unset;
+  line-height: 23px;
   margin: unset;
   padding: unset;
 }
@@ -908,6 +908,11 @@ textarea {
 *:focus {
   outline-width: 0 !important;
   outline-style: solid;
+}
+
+body,
+iframe {
+  line-height: 23px;
 }
 
 .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
@@ -1534,128 +1539,128 @@ code {
 }
 
 .rm-block__see {
-  transition-delay: 50ms;
-  transition: all 50ms ease-in-out;
+  transition-delay: 20ms;
+  transition: all 20ms ease-in-out;
 }
 
 .rm-block__self .rm-block__ref-count {
-  transition: all 50ms ease-in-out;
+  transition: all 20ms ease-in-out;
 }
 
 .rm-multibar {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 #rm-mobile-bar {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-diagram .rm-diagram-properties-panel__header .bp3-icon-chevron-right {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-diagram .rm-diagram-properties-panel__section {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 #rm-electron-find {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-children__container {
-  transition: margin-left 50ms ease-in;
+  transition: margin-left 20ms ease-in;
 }
 
 .rm-embed-children__inner {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-children__open-bar {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-container:hover > .rm-embed-edit {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-margin-action-edit {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-show-bullet > .rm-embed-margin-action-edit {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-margin-action {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-show-bullets-button-x {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-inner-block-hide {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed-inner-block-hide:hover > .rm-embed-show-bullets-button-x {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-hide-bullet > .rm-embed-inner-block-hide {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-hide-bullet > .rm-embed-inner-block-hide:hover > .rm-embed-show-bullets-button-x {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-embed--page {
-  transition: all 50ms ease-in-out;
+  transition: all 20ms ease-in-out;
 }
 
 .rm-embed--page > .rm-embed-margin-action {
-  transition: all 50ms ease-in-out;
+  transition: all 20ms ease-in-out;
 }
 
 #right-sidebar .rm-sidebar-card .rm-sidebar-card-controls {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-choose-filter {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .roam-body .roam-app .roam-sidebar-container {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-article-wrapper {
-  transition: padding ease-in-out 50ms;
+  transition: padding ease-in-out 20ms;
 }
 
 .rm-find-or-create-wrapper {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-mentions-search {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-hide.rm-not-focused.rm-block--closed {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-hide.rm-not-focused.rm-block--closed > .rm-block__self .rm-block__controls .rm-caret, .rm-hide.rm-not-focused.rm-block--closed > .rm-block__self .rm-block__controls .rm-caret-hidden, .rm-hide.rm-not-focused.rm-block--closed > .rm-block__self .rm-block__controls .rm-caret:hover {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-bullet::after {
-  transition: all 50ms ease-in;
+  transition: all 20ms ease-in;
 }
 
 .rm-paren {
-  transition: all 50ms ease-in-out;
+  transition: all 20ms ease-in-out;
 }
 
 .rm-caret {
