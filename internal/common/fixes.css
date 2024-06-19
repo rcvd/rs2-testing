@@ -189,7 +189,7 @@ table.bp3-html-table tfoot tr:first-child td {
   display: none;
 }
 
-.rm-page-ref-popover .bp3-datepicker .DayPicker-Weekday:first-child,
+.rm-page-ref-popover .bp3-datepicker .DayPicker-Weekday:not([role=columnheader]),
 .rm-page-ref-popover .bp3-datepicker .DayPicker-WeekNumber {
   display: none;
 }
@@ -1534,7 +1534,7 @@ code {
   height: 3rem;
 }
 
-.rm-files-dropzone {
+.rm-topbar .rm-files-dropzone {
   height: 3rem;
 }
 
