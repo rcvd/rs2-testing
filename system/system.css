@@ -865,6 +865,13 @@
   border-radius: var(--bd-bp3__popover-content);
 }
 
+.bp3-slider-handle:active, .bp3-slider-handle.bp3-active {
+  background-color: var(--bc-bp3__slider-handle--active);
+  background-image: var(--bi-bp3__slider-handle--active);
+  box-shadow: var(--sd-bp3__slider-handle--active);
+  --webkit-box-shadow: var(--sd-bp3__slider-handle--active);
+}
+
 .bp3-slider-handle:hover {
   background-color: var(--bc-bp3__slider-handle--hover);
 }

@@ -348,6 +348,9 @@
   --fl-bp3__popover-arrow-fill: transparent;
   --bc-bp3__popover-content: var(--cl-gray-225);
   --bd-bp3__popover-content: 5px;
+  --bc-bp3__slider-handle--active: ;
+  --bi-bp3__slider-handle--active: ;
+  --sd-bp3__slider-handle--active: ;
   --bc-bp3__slider-handle--hover: ;
   --bc-bp3__slider-handle: var(--cl-gray-100);
   --bi-bp3__slider-handle: transparent;
