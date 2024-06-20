@@ -1724,3 +1724,12 @@ code {
 .rm-zoom-path .rm-zoom-item .rm-zoom-item-content:first-child {
   padding-left: 0;
 }
+
+.rm-zoom-path .rm-zoom-item:first-child {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.squish {
+  margin-top: 2px;
+}
