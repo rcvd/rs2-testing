@@ -1136,13 +1136,14 @@ code {
 
 /* Hide caret on un-hovered reference titles */
 .rm-reference-container .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret,
-.rm-reference-main:not(.rm-query-content) .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
+.rm-reference-main .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret {
   min-width: 16px;
   min-height: 16px;
   opacity: 0;
   margin-right: 2px;
 }
 
+.rm-reference-main.rm-query-content .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper .rm-caret,
 .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper:hover .rm-caret,
 .rm-reference-main:not(.rm-query-content) .rm-mentions .rm-ref-page-view .rm-title-arrow-wrapper:hover .rm-caret {
   opacity: 1;
@@ -1218,7 +1219,7 @@ code {
 }
 
 .rm-inline-references {
-  margin-left: 40px;
+  margin-left: 38px;
 }
 
 .rm-inline-references .rm-caret.rm-caret-showing {
