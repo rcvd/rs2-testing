@@ -152,14 +152,6 @@ table.bp3-html-table tfoot tr:first-child td {
   width: 9px;
 }
 
-.rm-inline-references .rm-caret.rm-caret-showing {
-  opacity: 0;
-}
-
-.rm-inline-references .rm-inline-reference:hover .rm-caret-showing {
-  opacity: 1;
-}
-
 .rm-block__self:hover > .controls > .block-expand > .rm-caret-showing {
   opacity: 1;
 }
@@ -1046,6 +1038,7 @@ code {
 .bp3-menu-item::before,
 .bp3-menu-item > .bp3-icon {
   margin-left: 0;
+  margin-top: 4px;
 }
 
 /* Fix the size of the menu icon */
@@ -1191,7 +1184,7 @@ code {
 }
 
 .rm-inline-references .rm-filter-popup-button {
-  margin-top: 5px;
+  margin-top: 3.5px;
   margin-right: 5px;
 }
 
@@ -1226,6 +1219,18 @@ code {
 
 .rm-inline-references {
   margin-left: 40px;
+}
+
+.rm-inline-references .rm-caret.rm-caret-showing {
+  opacity: 0;
+}
+
+.rm-inline-reference {
+  margin-left: -13px;
+}
+
+.rm-inline-references .rm-inline-reference:hover .rm-caret-showing {
+  opacity: 1;
 }
 
 /* Hide the window header caret by default */
@@ -1714,4 +1719,8 @@ code {
 
 .roam-article > div > div[style="margin-left: -20px;"] {
   margin-left: -18px !important;
+}
+
+.rm-zoom-path .rm-zoom-item .rm-zoom-item-content:first-child {
+  padding-left: 0;
 }
