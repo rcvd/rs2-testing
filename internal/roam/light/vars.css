@@ -239,7 +239,7 @@
   --bl-bp3__control-indicator: transparent;
   --sd-bp3__control-indicator: inset 0 0 0 1px rgba(16,22,26,0.2),inset 0 -1px 0 rgba(16,22,26,0.1);
   --bi-bp3__control-radio-indicator-input-before--checked: radial-gradient(#fff,#fff 28%,transparent 32%);
-  --op-bp3__control-radio-indicator-input-before--checked-disabled: 0.5;
+  --op-bp3__control-radio-indicator-input-before--checked-disabled: 0,5;
   --bc-bp3__control-switch-indicator--hover: rgba(115,134,148,0.5);
   --bt-bp3__control-switch-indicator: transparent;
   --br-bp3__control-switch-indicator: transparent;
@@ -481,10 +481,9 @@
   --sd-diagram__group--selected: none;
   --bc-diagram__group-title: transparent;
   --co-diagram__group-title: var(--cl-gray-900);
-  --fs-diagram__group-title: 1rem;
   --bc-diagram__minimap: var(--cl-gray-100);
   --fl-diagram__minimap-node: var(--cl-gray-600);
-  --op-diagram__minimap-node: 0.5;
+  --op-diagram__minimap-node: 0,5;
   --bc-diagram__node--black: rgba(24,32,38,0.1);
   --co-diagram__node--black: var(--cl-gray-200);
   --bc-diagram__node--blue: rgba(14,91,139,0.1);
@@ -1017,6 +1016,8 @@
   --sd-menu__button: inset 0 0 0 1px rgba(16,22,26,.2),inset 0 -1px 0 rgba(16,22,26,.1);
   --co-menu__button: var(--cl-gray-900);
   --co-menu__button-icon: var(--cl-gray-600);
+  --bc-mermaid__label-container: var(--cl-violet-200);
+  --co-mermaid__label-container: var(--cl-violet-700);
   --co-reference__filter-icon--active: var(--cl-blue-700);
   --bc-reference__item: var(--cl-gray-150);
   --co-reference__linked-unlinked-title: var(--cl-gray-900);

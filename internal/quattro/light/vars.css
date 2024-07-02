@@ -239,7 +239,7 @@
   --bl-bp3__control-indicator: transparent;
   --sd-bp3__control-indicator: 0px 0px 0px 1px var(--cl-gray-300);
   --bi-bp3__control-radio-indicator-input-before--checked: radial-gradient(#fff,#fff 28%,transparent 32%);
-  --op-bp3__control-radio-indicator-input-before--checked-disabled: 0.5;
+  --op-bp3__control-radio-indicator-input-before--checked-disabled: 0,5;
   --bc-bp3__control-switch-indicator--hover: rgba(115,134,148,0.5);
   --bt-bp3__control-switch-indicator: transparent;
   --br-bp3__control-switch-indicator: transparent;
@@ -481,7 +481,6 @@
   --sd-diagram__group--selected: ;
   --bc-diagram__group-title: ;
   --co-diagram__group-title: ;
-  --fs-diagram__group-title: ;
   --bc-diagram__minimap: ;
   --fl-diagram__minimap-node: ;
   --op-diagram__minimap-node: ;
@@ -1017,6 +1016,8 @@
   --sd-menu__button: ;
   --co-menu__button: ;
   --co-menu__button-icon: ;
+  --bc-mermaid__label-container: ;
+  --co-mermaid__label-container: ;
   --co-reference__filter-icon--active: ;
   --bc-reference__item: ;
   --co-reference__linked-unlinked-title: ;

@@ -1238,7 +1238,6 @@
 .rm-diagram .react-flow__node-group .rm-node-group__title-inner-wrapper {
   background-color: var(--bc-diagram__group-title);
   color: var(--co-diagram__group-title);
-  font-size: var(--fs-diagram__group-title);
 }
 
 .rm-diagram .react-flow__minimap {
@@ -2528,6 +2527,11 @@ code {
 
 .bp3-menu .bp3-menu-divider ~ .flex-h-box .bp3-icon-standard[style="color: rgb(92, 112, 128);"] {
   color: var(--co-menu__button-icon) !important;
+}
+
+.rm-mermaid .label-container-dummy {
+  background-color: var(--bc-mermaid__label-container);
+  color: var(--co-mermaid__label-container);
 }
 
 .bp3-icon[style="color: rgb(168, 42, 42);"] {

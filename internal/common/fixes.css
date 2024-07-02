@@ -459,9 +459,9 @@ table.bp3-html-table tfoot tr:first-child td {
 
 /* Gray group */
 .rm-diagram .react-flow__node-group {
-  --group-title-fill-color: var(--co-diagram__node--red) !important;
-  --group-area-fill-color: var(--bc-diagram__node--red) !important;
-  --group-border-color: var(--co-diagram__node-border--red) !important;
+  --group-title-fill-color: var(--co-diagram__node--gray) !important;
+  --group-area-fill-color: var(--bc-diagram__node--gray) !important;
+  --group-border-color: var(--co-diagram__node-border--gray) !important;
 }
 
 /* Black group */
@@ -1050,6 +1050,11 @@ code {
 .bp3-menu-item.bp3-intent-primary.bp3-active .rm-page-ref--link,
 .bp3-menu-item.bp3-intent-primary.bp3-active .rm-page-ref__brackets {
   color: var(--co-bp3__menuitem--active);
+}
+
+.label-container {
+  fill: var(--bc-mermaid__label-container);
+  stroke: var(--co-mermaid__label-container);
 }
 
 .roamjs-smartblock-menu .bp3-menu-item img {
