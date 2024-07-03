@@ -658,6 +658,7 @@
   --bc-extensions__marketplace-details-thumb: var(--cl-gray-500);
   --bc-extensions__marketplace-details-track: var(--cl-gray-100);
   --bc-extensions__marketplace-search: var(--cl-white);
+  --bc-extensions__menu-item: ;
   --bc-extensions__search-results-scrollbar-thumb: var(--cl-gray-500);
   --bc-extensions__search-results-scrollbar-track: var(--cl-white);
   --co-filter__helper-text: var(--cl-gray-500);

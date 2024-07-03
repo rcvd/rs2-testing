@@ -1642,6 +1642,10 @@ button.emoji-mart-search-icon {
   background-color: var(--bc-extensions__marketplace-search);
 }
 
+.rm-extensions-settings .bp3-popover-content .bp3-menu {
+  background-color: var(--bc-extensions__menu-item);
+}
+
 .rm-extensions-marketplace .rm-extensions-marketplace-search__results::-webkit-scrollbar-thumb {
   background-color: var(--bc-extensions__search-results-scrollbar-thumb);
 }
