@@ -886,6 +886,7 @@
   --sd-main__code: inset 0 0 0 1px rgba(16,22,26,.2);
   --co-main__code: var(--cl-gray-600);
   --bc-main__dnd-seperator-bar: var(--cl-gray-600);
+  --bc-main__embed-children-container: var(--cl-gray-150);
   --bc-main__embed-container: var(--cl-gray-150);
   --bc-main__embed-container-1: var(--cl-gray-250);
   --bc-main__embed-container-2: var(--cl-gray-200);

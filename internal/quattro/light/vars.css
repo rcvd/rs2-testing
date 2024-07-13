@@ -886,6 +886,7 @@
   --sd-main__code: none;
   --co-main__code: var(--cl-gray-900);
   --bc-main__dnd-seperator-bar: ;
+  --bc-main__embed-children-container: ;
   --bc-main__embed-container: var(--cl-gray-250);
   --bc-main__embed-container-1: var(--cl-gray-200);
   --bc-main__embed-container-2: var(--cl-gray-250);

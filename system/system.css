@@ -2204,6 +2204,10 @@ code {
   background-color: var(--bc-main__dnd-seperator-bar);
 }
 
+.rm-embed-children__container {
+  background-color: var(--bc-main__embed-children-container);
+}
+
 .rm-embed-container--block {
   background-color: var(--bc-main__embed-container);
 }
