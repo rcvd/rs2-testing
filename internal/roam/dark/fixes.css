@@ -34,7 +34,9 @@
   filter: hue-rotate(180deg) invert(1);
 }
 
-/* Restore blueprintjs elements */
+/* Restore blueprintjs and media elements */
+.rm-diagram-outline-container,
+.rm-iframe__spacing-wrapper,
 .rm-diagram .bp3-input-group,
 .rm-diagram .bp3-button {
   filter: hue-rotate(-180deg) invert(1);
