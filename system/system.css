@@ -1132,10 +1132,6 @@
   color: var(--co-datepicker__day-without-journal);
 }
 
-.rm-diagram .rm-parsed-block-string {
-  color: var(--co-diagram__block-title);
-}
-
 .react-flow__controls-button:active {
   background-color: var(--bc-diagram__button--active);
   background-image: var(--bi-diagram__button--active);
@@ -1380,39 +1376,7 @@
   background-color: var(--bc-diagram__properties-panel);
   box-shadow: var(--sd-diagram__properties-panel);
   --webkit-box-shadow: var(--sd-diagram__properties-panel);
-}
-
-.rm-diagram .rm-diagram-node__resize-control {
-  background-color: var(--bc-diagram__resize-control);
-  border-top: var(--bt-diagram__resize-control);
-  border-right: var(--br-diagram__resize-control);
-  border-bottom: var(--bb-diagram__resize-control);
-  border-left: var(--bl-diagram__resize-control);
-}
-
-.rm-diagram-title-panel {
-  background-color: var(--bc-diagram__title-panel);
-  box-shadow: var(--sd-diagram__title-panel);
-  --webkit-box-shadow: var(--sd-diagram__title-panel);
-  color: var(--co-diagram__title-panel);
-}
-
-.rm-diagram .react-flow__node-toolbar {
-  background-color: var(--bc-diagram__toolbar);
-  border-top: var(--bt-diagram__toolbar);
-  border-right: var(--br-diagram__toolbar);
-  border-bottom: var(--bb-diagram__toolbar);
-  border-left: var(--bl-diagram__toolbar);
-  box-shadow: var(--sd-diagram__toolbar);
-  --webkit-box-shadow: var(--sd-diagram__toolbar);
-}
-
-.rm-diagram {
-  background-color: var(--bc-diagram);
-  border-top: var(--bt-diagram);
-  border-right: var(--br-diagram);
-  border-bottom: var(--bb-diagram);
-  border-left: var(--bl-diagram);
+  color: var(--co-diagram__properties-panel);
 }
 
 .confirmation-content-dialog .confirmation-content-buttons .confirm-button {
