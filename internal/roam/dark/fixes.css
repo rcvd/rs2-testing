@@ -1,22 +1,3 @@
-/* .rm-diagram {
-  --diagram-background-color: var(--cl-gray-750)!important;
-}
-
-.rm-diagram .react-flow {
-  --edge-stroke-color:  var(--cl-gray-500);
-  --block-unset-max-width: 200px;
-  --group-title-fill-color: #A7B6C23F;
-  --block-font-size: 14px;
-  --group-area-fill-color: rgba(225, 232, 237, 0.2);
-  --block-fill-color: white;
-  --block-text-color: black;
-  --block-border-color: var(--cl-gray-500);
-  --block-text-align: start;
-  --group-title-text-color: black;
-  --group-border-color:  var(--cl-gray-500);
-  --group-title-font-size: 18px;
-  --global-edge-stroke-color:  var(--cl-gray-500);
-  }*/
 #roam-sidebar-logo img {
   filter: invert(22%) sepia(12%) saturate(302%) hue-rotate(164deg) brightness(90%) contrast(92%);
 }
@@ -27,17 +8,4 @@
 
 .rm-spacer svg path {
   fill: var(--cl-gray-300);
-}
-
-.codemirror-colorpicker,
-.rm-diagram {
-  filter: hue-rotate(180deg) invert(1);
-}
-
-/* Restore blueprintjs and media elements */
-.rm-diagram-outline-container,
-.rm-iframe__spacing-wrapper,
-.rm-diagram .bp3-input-group,
-.rm-diagram .bp3-button {
-  filter: hue-rotate(-180deg) invert(1);
 }

@@ -1168,11 +1168,50 @@
   color: var(--co-diagram__button);
 }
 
+.rm-diagram .react-flow__controls {
+  box-shadow: var(--sd-diagram__controls);
+  --webkit-box-shadow: var(--sd-diagram__controls);
+}
+
+.rm-diagram .react-flow__minimap {
+  background-color: var(--bc-diagram__minimap);
+}
+
+.rm-diagram .react-flow__minimap-node {
+  fill: var(--fl-diagram__minimap-node);
+  opacity: var(--op-diagram__minimap-node);
+}
+
 .rm-diagram .rm-diagram-properties-panel {
   background-color: var(--bc-diagram__properties-panel);
   box-shadow: var(--sd-diagram__properties-panel);
   --webkit-box-shadow: var(--sd-diagram__properties-panel);
   color: var(--co-diagram__properties-panel);
+}
+
+.rm-diagram .rm-diagram-node__resize-control {
+  background-color: var(--bc-diagram__resize-control);
+  border-top: var(--bt-diagram__resize-control);
+  border-right: var(--br-diagram__resize-control);
+  border-bottom: var(--bb-diagram__resize-control);
+  border-left: var(--bl-diagram__resize-control);
+}
+
+.rm-diagram-title-panel {
+  background-color: var(--bc-diagram__title-panel);
+  box-shadow: var(--sd-diagram__title-panel);
+  --webkit-box-shadow: var(--sd-diagram__title-panel);
+  color: var(--co-diagram__title-panel);
+}
+
+.rm-diagram .react-flow__node-toolbar {
+  background-color: var(--bc-diagram__toolbar);
+  border-top: var(--bt-diagram__toolbar);
+  border-right: var(--br-diagram__toolbar);
+  border-bottom: var(--bb-diagram__toolbar);
+  border-left: var(--bl-diagram__toolbar);
+  box-shadow: var(--sd-diagram__toolbar);
+  --webkit-box-shadow: var(--sd-diagram__toolbar);
 }
 
 .confirmation-content-dialog .confirmation-content-buttons .confirm-button {
