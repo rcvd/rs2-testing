@@ -107,6 +107,11 @@ table.bp3-html-table tfoot tr:first-child td {
   margin: 8px;
 }
 
+.rm-code-block .cm-gutters {
+  border-top-left-radius: var(--bd-codeblock);
+  border-bottom-left-radius: var(--bd-codeblock);
+}
+
 /* Remove the background color of the command palette */
 .rm-command-palette__scroll-container .rm-command-palette__menu {
   background-color: transparent;
@@ -456,6 +461,9 @@ iframe {
 
 .roam-sidebar-content .log-button .bp3-icon-list {
   font-family: "Icons20";
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: text-bottom;
 }
 
 #roam-sidebar-logo:hover {
@@ -513,6 +521,10 @@ iframe {
   margin-top: 7px;
 }
 
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .icon {
+  display: inline-flex;
+}
+
 /* Move the main block slightly back into the article frame */
 .roam-log-page .rm-block-children[style="margin-left: -27px;"] {
   margin-left: 0px !important;
@@ -534,8 +546,8 @@ iframe {
 
 /* Fix inline code within the normal block height */
 code {
-  display: inline-flex;
-  max-height: 18px;
+  /* display: inline-flex; */
+  line-height: 18px;
   flex-wrap: wrap;
   align-content: center;
   font-size: 0.9rem;
@@ -577,6 +589,14 @@ code {
   margin: 0 0.5px;
 }
 
+.rm-block-separator {
+  min-width: 0;
+}
+
+.rm-code-block {
+  margin-right: 0;
+}
+
 /* Remove unnecessary margin from menu icon */
 .bp3-menu-item::before,
 .bp3-menu-item > .bp3-icon {
@@ -595,9 +615,28 @@ code {
   color: var(--co-bp3__menuitem--active);
 }
 
-.label-container {
-  fill: var(--bc-mermaid__label-container);
-  stroke: var(--co-mermaid__label-container);
+.rm-mermaid .label-container {
+  fill: var(--bc-mermaid__label-container) !important;
+  stroke: var(--co-mermaid__label-container) !important;
+}
+
+.rm-mermaid .edgePath .path {
+  stroke: var(--co-mermaid__edge-path) !important;
+}
+
+.rm-mermaid .note {
+  fill: var(--bc-mermaid__note) !important;
+  stroke: var(--co-mermaid__note) !important;
+}
+
+.rm-mermaid .actor {
+  fill: var(--bc-mermaid__actor) !important;
+  stroke: var(--co-mermaid__actor) !important;
+}
+
+.rm-mermaid .labelBox {
+  fill: var(--bc-mermaid__label-box) !important;
+  stroke: var(--co-mermaid__label-box) !important;
 }
 
 .roamjs-smartblock-menu .bp3-menu-item img {

@@ -1,0 +1,9 @@
+.bp3-popover .bp3-popover-arrow {
+  display: none;
+}
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page,
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+  margin: 0 8px;
+  padding: 4px 12px;
+}
