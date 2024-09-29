@@ -820,6 +820,10 @@ code {
   margin-right: 11px;
 }
 
+.rm-inline-references > .rm-block-children > .rm-multibar {
+  left: -10px;
+}
+
 .rm-inline-references .rm-caret.rm-caret-showing {
   opacity: 0;
 }
