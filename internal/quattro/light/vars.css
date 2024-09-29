@@ -273,6 +273,9 @@
   --fs-bp3__datepicker-weeknumber: 1rem;
   --bc-bp3__dialog: var(--cl-gray-150);
   --sd-bp3__dialog: 0 0 0 1px rgba(16,22,26,0.1),0 4px 8px rgba(16,22,26,0.2),0 18px 46px 6px rgba(16,22,26,0.2);
+  --co-bp3__dialog: ;
+  --bc-bp3__dialog-header: ;
+  --sd-bp3__dialog-header: ;
   --br-bp3__divider: 1px solid rgba(16,22,26,0.15);
   --bb-bp3__divider: 1px solid rgba(16,22,26,0.15);
   --sd-bp3__elevation-0: 0 0 0 1px rgba(16,22,26,0.15),0 0 0 rgba(16,22,26,0),0 0 0 rgba(16,22,26,0);
@@ -1100,4 +1103,8 @@
   --fs-zoom__mentions-view: ;
   --fw-zoom__mentions-view: ;
   --co-zoom-path__item: ;
+  --bc-searchplus__sidebar: ;
+  --co-searchplus__sidebar: ;
+  --co-searchplus__date: ;
+  --co-searchplus__sidebar-headings: ;
 }

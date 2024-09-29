@@ -282,12 +282,12 @@
   color: var(--co-bp3__button-intent-primary-minimal--disabled-active) !important;
 }
 
-.bp3-button.bp3-minimal.bp3-intent-primary:hover {
+.bp3-button.bp3-minimal.bp3-intent-primary:hover, .bp3-button-group.bp3-minimal .bp3-button.bp3-intent-primary:hover {
   background-color: var(--bc-bp3__button-intent-primary-minimal--hover);
   color: var(--co-bp3__button-intent-primary-minimal--hover);
 }
 
-.bp3-button.bp3-minimal.bp3-intent-primary {
+.bp3-button.bp3-minimal.bp3-intent-primary, .bp3-button-group.bp3-minimal .bp3-button.bp3-intent-primary {
   color: var(--co-bp3__button-intent-primary-minimal);
 }
 
@@ -338,12 +338,12 @@
   color: var(--co-bp3__button-intent-success-minimal--disabled-active) !important;
 }
 
-.bp3-button.bp3-minimal.bp3-intent-success:hover {
+.bp3-button.bp3-minimal.bp3-intent-success:hover, .bp3-button-group.bp3-minimal .bp3-button.bp3-intent-success:hover {
   background-color: var(--bc-bp3__button-intent-success-minimal--hover);
   color: var(--co-bp3__button-intent-success-minimal--hover);
 }
 
-.bp3-button.bp3-minimal.bp3-intent-success {
+.bp3-button.bp3-minimal.bp3-intent-success, .bp3-button-group.bp3-minimal .bp3-button.bp3-intent-success {
   color: var(--co-bp3__button-intent-success-minimal);
 }
 
@@ -394,12 +394,12 @@
   color: var(--co-bp3__button-intent-warning-minimal--disabled-active) !important;
 }
 
-.bp3-button.bp3-minimal.bp3-intent-warning:hover {
+.bp3-button.bp3-minimal.bp3-intent-warning:hover, .bp3-button-group.bp3-minimal .bp3-button.bp3-intent-warning:hover {
   background-color: var(--bc-bp3__button-intent-warning-minimal--hover);
   color: var(--co-bp3__button-intent-warning-minimal--hover);
 }
 
-.bp3-button.bp3-minimal.bp3-intent-warning {
+.bp3-button.bp3-minimal.bp3-intent-warning, .bp3-button-group.bp3-minimal .bp3-button.bp3-intent-warning {
   color: var(--co-bp3__button-intent-warning-minimal);
 }
 
@@ -666,6 +666,13 @@
   background-color: var(--bc-bp3__dialog);
   box-shadow: var(--sd-bp3__dialog);
   --webkit-box-shadow: var(--sd-bp3__dialog);
+  color: var(--co-bp3__dialog);
+}
+
+.bp3-dialog-header {
+  background-color: var(--bc-bp3__dialog-header);
+  box-shadow: var(--sd-bp3__dialog-header);
+  --webkit-box-shadow: var(--sd-bp3__dialog-header);
 }
 
 .bp3-divider {
@@ -2714,4 +2721,17 @@ code {
 
 .rm-zoom-path .rm-zoom-item {
   color: var(--co-zoom-path__item);
+}
+
+.advanced-search-el .sidebar {
+  background-color: var(--bc-searchplus__sidebar);
+  color: var(--co-searchplus__sidebar);
+}
+
+.advanced-search-el .result-item-container .date {
+  color: var(--co-searchplus__date);
+}
+
+.advanced-search-el .sidebar .bp3-button-text {
+  color: var(--co-searchplus__sidebar-headings);
 }
