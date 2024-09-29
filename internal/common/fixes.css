@@ -836,6 +836,12 @@ code {
   opacity: 1;
 }
 
+/* Hide Search and Filter icons when collapsed */
+.rm-reference-main .rm-reference-container:has(> .flex-h-box > .rm-caret-closed) .rm-mentions-search,
+.rm-reference-main .rm-reference-container:has(> .flex-h-box > .rm-caret-closed) .rm-reference-container {
+  display: none;
+}
+
 /* Hide the window header caret by default */
 .window-headers .rm-caret {
   opacity: 0;

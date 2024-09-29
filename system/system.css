@@ -2393,6 +2393,10 @@ code {
   font-weight: var(--fw-reference__linked-unlinked-title) !important;
 }
 
+.rm-reference-main .rm-reference-container:has(> .flex-h-box > .rm-caret-closed) div[style="color: rgb(206, 217, 224);"] strong, .rm-reference-main .rm-unlinked-reference-container:has(> .flex-h-box > .rm-caret-closed) strong[style="color: rgb(206, 217, 224);"] {
+  color: var(--co-reference__linked-unlinked-title--collapsed) !important;
+}
+
 .rm-nested-refs {
   background-color: var(--bc-reference__nested-refs);
   border-radius: var(--bd-reference__nested-refs);

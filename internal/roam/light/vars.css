@@ -973,6 +973,7 @@
   --bc-reference__item: var(--cl-gray-150);
   --co-reference__linked-unlinked-title: var(--cl-gray-900);
   --fw-reference__linked-unlinked-title: 500;
+  --co-reference__linked-unlinked-title--collapsed: var(--cl-gray-500);
   --bc-reference__nested-refs: transparent;
   --bd-reference__nested-refs: 5px;
   --sd-reference__nested-refs: inset 0px 0px 0px 2px var(--cl-gold-500);
