@@ -1083,8 +1083,10 @@
   --bc-settings__tab--hover: var(--cl-gray-150);
   --bc-settings__tab--selected: var(--cl-gray-150);
   --bd-settings__tab--selected: ;
+  --co-settings__tab--selected: ;
   --co-settings__tab: ;
   --bc-settings__tab-list: ;
+  --br-settings__tab-list: ;
   --bc-settings__tab-list-scrollbar-thumb: var(--cl-gray-500);
   --bc-settings__tab-list-scrollbar-track: var(--cl-white);
   --bc-settings__tabs: var(--cl-white);

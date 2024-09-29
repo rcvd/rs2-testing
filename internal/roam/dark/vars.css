@@ -1083,8 +1083,10 @@
   --bc-settings__tab--hover: unset;
   --bc-settings__tab--selected: unset;
   --bd-settings__tab--selected: 3px;
+  --co-settings__tab--selected: ;
   --co-settings__tab: unset;
   --bc-settings__tab-list: unset;
+  --br-settings__tab-list: ;
   --bc-settings__tab-list-scrollbar-thumb: var(--cl-gray-500);
   --bc-settings__tab-list-scrollbar-track: var(--cl-gray-800);
   --bc-settings__tabs: var(--cl-gray-800);

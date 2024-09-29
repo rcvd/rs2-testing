@@ -466,6 +466,10 @@ iframe {
   vertical-align: text-bottom;
 }
 
+.roam-sidebar-content .log-button .bp3-icon-calendar {
+  margin-top: -2px;
+}
+
 #roam-sidebar-logo:hover {
   text-decoration: none;
 }
@@ -589,10 +593,12 @@ code {
   margin: 0 0.5px;
 }
 
+/* Remove that extra margin to the right of the main area */
 .rm-block-separator {
   min-width: 0;
 }
 
+/* And remove the removal of the extra margin for code blocks */
 .rm-code-block {
   margin-right: 0;
 }
@@ -807,6 +813,11 @@ code {
 
 .rm-inline-references {
   margin-left: 38px;
+}
+
+.rm-inline-references .rm-inline-reference .rm-caret-wrapper {
+  margin-left: -11px;
+  margin-right: 11px;
 }
 
 .rm-inline-references .rm-caret.rm-caret-showing {
@@ -1032,8 +1043,8 @@ code {
 
 .rm-settings--desktop .rm-settings-tabs .bp3-tab-list {
   margin-left: 20px;
-  margin-right: 10px;
-  padding-right: 10px;
+  margin-right: 0px;
+  padding-right: 20px;
 }
 
 .rm-settings--desktop .rm-settings-heading {

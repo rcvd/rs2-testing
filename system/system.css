@@ -2655,6 +2655,7 @@ code {
 .rm-settings--desktop .rm-settings__tab:not(.rm-settings__panel-wrapper)[aria-selected=true] {
   background-color: var(--bc-settings__tab--selected) !important;
   border-radius: var(--bd-settings__tab--selected) !important;
+  color: var(--co-settings__tab--selected) !important;
 }
 
 .rm-settings--desktop .rm-settings__tab:not(.rm-settings__panel-wrapper), .rm-settings .rm-settings__tab:not(.rm-settings__panel-wrapper) {
@@ -2663,6 +2664,7 @@ code {
 
 .rm-settings--desktop .rm-settings-tabs .bp3-tab-list {
   background-color: var(--bc-settings__tab-list);
+  border-right: var(--br-settings__tab-list);
 }
 
 .rm-settings--desktop .rm-settings-tabs .bp3-tab-list::-webkit-scrollbar-thumb {

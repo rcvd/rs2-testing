@@ -1052,7 +1052,7 @@
   --br-settings__input: ;
   --bb-settings__input: ;
   --bl-settings__input: ;
-  --bd-settings__input: ;
+  --bd-settings__input: 5px;
   --sd-settings__input: ;
   --co-settings__input: ;
   --fs-settings__input: ;
@@ -1082,9 +1082,11 @@
   --bc-settings__settings-wrapper: ;
   --bc-settings__tab--hover: ;
   --bc-settings__tab--selected: ;
-  --bd-settings__tab--selected: ;
+  --bd-settings__tab--selected: 3px;
+  --co-settings__tab--selected: ;
   --co-settings__tab: ;
   --bc-settings__tab-list: ;
+  --br-settings__tab-list: ;
   --bc-settings__tab-list-scrollbar-thumb: ;
   --bc-settings__tab-list-scrollbar-track: ;
   --bc-settings__tabs: ;
